@@ -12208,6 +12208,16 @@
 		)
 		(uuid f4bb1312-6ae5-4f38-a8f7-2c807eef5aa3)
 	)
+	(text "C2845268"
+		(exclude_from_sim no)
+		(at 639.064 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01df40c5-b35a-4f54-87f6-d059d94d320a")
+	)
 	(text "JACK BOARD"
 		(exclude_from_sim no)
 		(at 407.162 145.796 0)
@@ -12247,6 +12257,16 @@
 			)
 		)
 		(uuid "2b540fbb-cda2-4e7b-918a-2da63f0e865d")
+	)
+	(text "C2758340"
+		(exclude_from_sim no)
+		(at 547.37 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31ba7c10-d886-458c-a155-e5adc9271396")
 	)
 	(text "+Audio L IN"
 		(exclude_from_sim no)
@@ -12721,6 +12741,12 @@
 		(uuid "1b4b6421-6dc8-41e0-944e-aa7c5014b660")
 	)
 	(junction
+		(at 528.32 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c069767-3dcb-4c15-a34d-5b39f5149592")
+	)
+	(junction
 		(at 414.02 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12737,6 +12763,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2139a2ad-659a-42a3-92cb-4e64efc06586")
+	)
+	(junction
+		(at 528.32 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b19a96-e77e-4c0c-a431-e5912311c687")
 	)
 	(junction
 		(at 553.72 336.55)
@@ -12949,6 +12981,12 @@
 		(uuid "41b252c1-ad8a-4f5a-96a3-9b8138265a8c")
 	)
 	(junction
+		(at 528.32 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e6e8c9-ca31-4ac2-9839-8cd1f7763ead")
+	)
+	(junction
 		(at 614.68 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12989,6 +13027,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49d18285-8bcb-4cf8-98fe-0054219ff337")
+	)
+	(junction
+		(at 528.32 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0cadd9-f3c0-440c-9300-8117873de243")
 	)
 	(junction
 		(at 541.02 189.23)
@@ -13597,6 +13641,12 @@
 		(uuid "b918a985-7de5-454b-b950-3afb051a0931")
 	)
 	(junction
+		(at 528.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb828a4c-86a8-40a7-bcd3-fbef235be708")
+	)
+	(junction
 		(at 314.96 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13655,6 +13705,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c684adfb-2257-4bf6-8647-335523eaac78")
+	)
+	(junction
+		(at 528.32 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7898ae1-db34-48cb-8791-50964caf0c6c")
 	)
 	(junction
 		(at 367.03 478.79)
@@ -13921,6 +13977,12 @@
 		(uuid "ea7811ac-4e77-4242-8d3c-dff1ace7c386")
 	)
 	(junction
+		(at 528.32 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea7c66e4-7362-49b0-97e0-92e9a81cbdff")
+	)
+	(junction
 		(at 520.7 462.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13967,6 +14029,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4be3781-b418-4b4a-a5b8-a8872086e37c")
+	)
+	(junction
+		(at 528.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f0e38a-778d-4b28-a408-e3189dc27db5")
 	)
 	(junction
 		(at 289.56 242.57)
@@ -14365,6 +14433,16 @@
 			(type default)
 		)
 		(uuid "0888fbc9-b259-4546-83cb-6c218d55f459")
+	)
+	(wire
+		(pts
+			(xy 528.32 120.65) (xy 541.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cc9e3d-4976-47f8-8081-f1b12fc3acbe")
 	)
 	(wire
 		(pts
@@ -16778,6 +16856,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 125.73) (xy 541.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462a0474-169f-4788-bb78-30a724a40e94")
+	)
+	(wire
+		(pts
 			(xy 678.18 260.35) (xy 670.56 260.35)
 		)
 		(stroke
@@ -17095,6 +17183,16 @@
 			(type default)
 		)
 		(uuid "5051e3c9-83a5-433f-8945-bb2b0fbd3a3d")
+	)
+	(wire
+		(pts
+			(xy 528.32 118.11) (xy 541.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511c4886-e7f1-4a66-a3ba-bfd57ad24e54")
 	)
 	(wire
 		(pts
@@ -17578,6 +17676,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 135.89) (xy 541.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7c7da7-fae1-4bec-94c3-4f0329d54fcf")
+	)
+	(wire
+		(pts
 			(xy 199.39 377.19) (xy 219.71 377.19)
 		)
 		(stroke
@@ -17988,6 +18096,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 130.81) (xy 541.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab34da3-3355-43bd-a128-42122540f09a")
+	)
+	(wire
+		(pts
 			(xy 589.28 300.99) (xy 589.28 306.07)
 		)
 		(stroke
@@ -18395,6 +18513,16 @@
 			(type default)
 		)
 		(uuid "74245166-374b-4f59-9c08-ae5354466283")
+	)
+	(wire
+		(pts
+			(xy 528.32 133.35) (xy 541.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74305cdd-8ca0-43fe-9661-161b25af9abc")
 	)
 	(wire
 		(pts
@@ -20878,6 +21006,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 128.27) (xy 541.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d9cff6-1318-4be6-b349-668b0f68f5ae")
+	)
+	(wire
+		(pts
 			(xy 105.41 431.8) (xy 109.22 431.8)
 		)
 		(stroke
@@ -23005,6 +23143,16 @@
 			(type default)
 		)
 		(uuid "e0b179e2-ca9c-4bb9-a3a5-dddbe3f63025")
+	)
+	(wire
+		(pts
+			(xy 528.32 123.19) (xy 541.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fea172-b3f6-4504-9bd9-0fa2e9e27917")
 	)
 	(wire
 		(pts
@@ -27719,7 +27867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DISPLAY_CONNECTOR"
+		(property "Value" "Pin Header"
 			(at 510.794 111.506 0)
 			(effects
 				(font
@@ -30270,7 +30418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles"
+		(property "Footprint" "green_screen:SW-TH_EC11XXXXXXXX"
 			(at 563.88 70.866 0)
 			(effects
 				(font
@@ -34054,7 +34202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "green_screen:KEY-SMD_4P-L6.0-W6.0-P3.90-LS9.0"
+		(property "Footprint" "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
 			(at 706.12 66.04 0)
 			(effects
 				(font
@@ -36611,8 +36759,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x40")
-		(at 675.64 518.16 0)
-		(mirror y)
+		(at 675.64 520.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36620,7 +36767,7 @@
 		(dnp no)
 		(uuid "427d808c-b431-4d34-8bab-4dfd767cfb51")
 		(property "Reference" "J22"
-			(at 673.608 518.2178 0)
+			(at 673.608 520.6422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36630,7 +36777,7 @@
 			)
 		)
 		(property "Value" "C2856837"
-			(at 673.608 520.6421 0)
+			(at 673.608 518.2179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36640,7 +36787,7 @@
 			)
 		)
 		(property "Footprint" "green_screen:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
-			(at 675.64 518.16 0)
+			(at 675.64 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36649,7 +36796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 675.64 518.16 0)
+			(at 675.64 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36658,7 +36805,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 675.64 518.16 0)
+			(at 675.64 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44873,7 +45020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
+		(property "Footprint" "green_screen:USB-A-SMD_AF180-13.1"
 			(at 635 132.08 0)
 			(effects
 				(font
@@ -48242,7 +48389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "green_screen:KEY-SMD_4P-L6.0-W6.0-P3.90-LS9.0"
+		(property "Footprint" "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
 			(at 622.3 79.375 0)
 			(effects
 				(font
@@ -50576,7 +50723,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "green_screen:KEY-SMD_4P-L6.0-W6.0-P3.90-LS9.0"
+		(property "Footprint" "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
 			(at 607.06 43.18 0)
 			(effects
 				(font
@@ -51108,7 +51255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles"
+		(property "Footprint" "green_screen:SW-TH_EC11XXXXXXXX"
 			(at 563.88 53.086 0)
 			(effects
 				(font
@@ -52274,7 +52421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Clacktronics:918-418K2022Y40000"
+		(property "Footprint" "green_screen:USB-C-TH_TYPE-C-USB-14P"
 			(at 166.37 187.96 0)
 			(effects
 				(font
@@ -53888,6 +54035,93 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 546.1 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df001a6d-1bfb-4300-b1dc-3f2072d245cd")
+		(property "Reference" "J30"
+			(at 548.132 125.7878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC"
+			(at 544.322 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "green_screen:FPC-SMD_F1004-H-08-20G-R"
+			(at 546.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 546.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7622faa-b716-4bfb-a58b-452736816cbb")
+		)
+		(pin "4"
+			(uuid "7873eb9d-85b0-4e0d-b140-5c1a7177a525")
+		)
+		(pin "3"
+			(uuid "33adb4ca-2dd1-43b2-9f51-0f65758893f6")
+		)
+		(pin "5"
+			(uuid "3c73b811-797b-4df5-8800-a67b4a47562e")
+		)
+		(pin "6"
+			(uuid "cba7c415-54ce-40f3-9c00-1cde131acc6e")
+		)
+		(pin "7"
+			(uuid "9c1f2b6f-a61c-4128-bfa3-3a4a40dba46f")
+		)
+		(pin "2"
+			(uuid "7ff92ad3-5255-44f0-afc0-90eb0cd058a0")
+		)
+		(pin "8"
+			(uuid "73bd3c5a-6a55-4092-8aff-019af360cfd8")
+		)
+		(instances
+			(project "EuroClack - Green_Screen_2350"
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "J30")
 					(unit 1)
 				)
 			)

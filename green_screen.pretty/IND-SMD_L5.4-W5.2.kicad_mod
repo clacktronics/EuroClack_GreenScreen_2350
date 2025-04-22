@@ -1,27 +1,161 @@
-(module "IND-SMD_L5.4-W5.2" (layer F.Cu) (tedit 6801502A)
-  (descr "IND-SMD_L5.4-W5.2 footprint")
-  (tags "IND-SMD_L5.4-W5.2 footprint")
-  (fp_text reference REF** (at 0 -4.6762) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value IND-SMD_L5.4-W5.2 (at 0 4.6762) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 2.7 -2.6) (end 2.729997 -2.6) (layer F.SilkS) (width 0.059995))
-  (fp_line (start -2.775006 -1.41999) (end -2.7762 -2.6762) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -2.7762 -2.6762) (end 2.7762 -2.6762) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 2.7762 -2.6762) (end 2.775006 -1.429997) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -2.775006 1.41999) (end -2.7762 2.6762) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -2.7762 2.6762) (end 2.7762 2.6762) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 2.7762 2.6762) (end 2.775006 1.410008) (layer F.SilkS) (width 0.1524))
-  (pad 1 smd rect (at 2.050013 0) (size 1.9 2.5) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at -2.049987 0) (size 1.9 2.5) (layers F.Cu F.Mask F.Paste))
-  (fp_text user REF** (at 0 6.6762) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model /home/ben/JLC2KiCad_lib/footprint/packages3d/IND-SMD_L5.4-W5.2.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "IND-SMD_L5.4-W5.2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L5.4-W5.2 footprint")
+	(tags "IND-SMD_L5.4-W5.2 footprint")
+	(property "Reference" "REF**"
+		(at 0 -4.6762 0)
+		(layer "F.SilkS")
+		(uuid "2dd34be9-469d-487d-94b8-025c1d73be3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L5.4-W5.2"
+		(at 0 4.6762 0)
+		(layer "F.Fab")
+		(uuid "7d28140d-1895-421e-b83b-1b5700edba27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7930a3c1-2d4f-426d-843a-b6cfcf495481")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52f25ec3-f3fc-465f-af21-27029e8f3198")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.7762 -2.6762)
+		(end 2.7762 -2.6762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "701747c7-401b-4f72-abef-8d324f9b481d")
+	)
+	(fp_line
+		(start -2.7762 2.6762)
+		(end 2.7762 2.6762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b03c9410-d222-4a0a-ba8a-796b5302e206")
+	)
+	(fp_line
+		(start -2.775006 -1.41999)
+		(end -2.7762 -2.6762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "244f3a8d-bffd-4634-9167-13d8fbee8fdc")
+	)
+	(fp_line
+		(start -2.775006 1.41999)
+		(end -2.7762 2.6762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "511181e4-5629-47d9-a28b-82f52c6144ef")
+	)
+	(fp_line
+		(start 2.7762 -2.6762)
+		(end 2.775006 -1.429997)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dc1491c-15e7-4da6-aeeb-cd9df28e137d")
+	)
+	(fp_line
+		(start 2.7762 2.6762)
+		(end 2.775006 1.410008)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa3b6feb-6be0-46ce-8e43-58584a49c09b")
+	)
+	(fp_circle
+		(center 2.7 -2.6)
+		(end 2.729997 -2.6)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46112e9b-ac76-4d20-b7f7-7819eb49a13c")
+	)
+	(fp_text user "REF**"
+		(at 0 6.6762 0)
+		(layer "F.Fab")
+		(uuid "8bab8a97-146c-4029-b704-84d3c310d169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.050013 0)
+		(size 1.9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be4416e7-2a43-426f-8ad4-b4a94e22095a")
+	)
+	(pad "2" smd rect
+		(at -2.049987 0)
+		(size 1.9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "013ea2dc-60b5-493b-bcd4-09fa088283bf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/green_screen.pretty/IND-SMD_L5.4-W5.2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

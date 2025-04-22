@@ -1,0 +1,177 @@
+(footprint "USB-A-SMD_AF180-13.1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB-A-SMD_AF180-13.1 footprint")
+	(tags "USB-A-SMD_AF180-13.1 footprint")
+	(property "Reference" "REF**"
+		(at 0 -4.900025 0)
+		(layer "F.SilkS")
+		(uuid "86b134c5-2a1c-4b4a-b210-02c4d5fa2689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-A-SMD_AF180-13.1"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "87cb676e-de06-4b86-97e9-fd1ab0837151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0caac80a-c284-4f5b-a92c-330ada91a552")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce181789-9c72-4fb6-8fd1-59efb7849391")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.549987 -2.900025)
+		(end 6.550013 -2.900025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "304cf72a-db68-4220-a6c1-836ce80681e7")
+	)
+	(fp_line
+		(start -6.549987 -2.9)
+		(end -6.549987 -0.700025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b041d4a-3afd-4d5d-8bd3-85c5cbc9d41c")
+	)
+	(fp_line
+		(start -5.300025 2.8)
+		(end 5.3 2.8)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c246f5fa-261e-4803-a320-aea65e31b6a4")
+	)
+	(fp_line
+		(start 6.550013 -2.9)
+		(end 6.550013 -0.700025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ebb4a6f-cc9e-4eff-9275-cba47d6df373")
+	)
+	(fp_circle
+		(center -8.269977 -3.027026)
+		(end -8.23998 -3.027026)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46ad4b11-cf91-487b-bd99-97115c5498d1")
+	)
+	(fp_text user "REF**"
+		(at 0 6.8 0)
+		(layer "F.Fab")
+		(uuid "c644b90d-3e9f-4ece-962c-88ea5c16f2c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.500127 -1.249784)
+		(size 1.7 1.7)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34cbe656-f448-4cc0-af5c-39453252760c")
+	)
+	(pad "2" thru_hole circle
+		(at -1 -1.249784)
+		(size 1.7 1.7)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72518661-4698-40c3-8ed8-6674a15a0a33")
+	)
+	(pad "3" thru_hole circle
+		(at 1 -1.249784)
+		(size 1.7 1.7)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46e258ba-b0bc-4ddc-a14b-5fccdb706ea0")
+	)
+	(pad "4" thru_hole circle
+		(at 3.500127 -1.249784)
+		(size 1.7 1.7)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f3b6bc5-eba0-4c08-bd6f-8a20882548f4")
+	)
+	(pad "5" thru_hole circle
+		(at -6.569977 1.249581)
+		(size 3.4 3.4)
+		(drill 2.500025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f4bad3c-1a55-464f-a9d0-4653f329c552")
+	)
+	(pad "5" thru_hole circle
+		(at 6.569977 1.249581)
+		(size 3.4 3.4)
+		(drill 2.500025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3b2caee-d86e-4bdb-bc43-4c259543da44")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/green_screen.pretty/USB-A-SMD_AF180-13.1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
