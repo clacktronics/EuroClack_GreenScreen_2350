@@ -24424,16 +24424,6 @@
 		)
 		(uuid "1024c189-68b4-4637-b151-1ced1815b307")
 	)
-	(label "GNDA_JACK"
-		(at 777.24 309.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "104869f8-4edc-495e-bb4b-961f88cb4cbc")
-	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 525.78 292.1 180)
 		(effects
@@ -24714,6 +24704,16 @@
 		)
 		(uuid "27db8592-f3da-40b9-98be-fe099c2d627e")
 	)
+	(label "GND_JACK"
+		(at 778.51 342.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "292841f0-6e84-4ef5-845c-3e48fc7a0bcd")
+	)
 	(label "VREF_ADC_NEG"
 		(at 647.7 304.8 0)
 		(effects
@@ -24944,16 +24944,6 @@
 		)
 		(uuid "3d87ee3e-3483-4e3a-ba32-1360a6c83086")
 	)
-	(label "GNDA_JACK"
-		(at 778.51 375.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e01a2a2-e01c-4887-bcae-566c267f437a")
-	)
 	(label "MCU_GATE_OUT_2"
 		(at 628.65 443.23 0)
 		(effects
@@ -24963,6 +24953,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f0384dc-3dca-476e-a6e1-8d82532c0faa")
+	)
+	(label "GND_JACK"
+		(at 769.62 416.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "412375d6-dc83-4c3e-858a-9a21cdee4418")
 	)
 	(label "USB_DP_JACK"
 		(at 198.12 190.5 180)
@@ -25053,16 +25053,6 @@
 			(justify left bottom)
 		)
 		(uuid "4756749d-d0c1-456c-a7d8-8959f950d293")
-	)
-	(label "GNDA_JACK"
-		(at 778.51 342.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4908574b-1267-4ba2-8516-6bad470c139b")
 	)
 	(label "MCU_GATE_OUT_1"
 		(at 519.43 274.32 180)
@@ -25614,6 +25604,16 @@
 		)
 		(uuid "745f8a88-c299-4360-a706-09085862060d")
 	)
+	(label "GND_JACK"
+		(at 777.24 309.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75813b82-d2ae-4945-8ce8-2f5cbd31d971")
+	)
 	(label "HSTX16_RST"
 		(at 645.16 528.32 0)
 		(effects
@@ -25884,7 +25884,7 @@
 		)
 		(uuid "8beaf137-6503-47c5-b25c-bf6e3cac9eeb")
 	)
-	(label "GNDA_JACK"
+	(label "GND_JACK"
 		(at 769.62 449.58 0)
 		(effects
 			(font
@@ -26053,16 +26053,6 @@
 			(justify left bottom)
 		)
 		(uuid "9cd4db31-8583-4339-9554-0f5b9c96bee5")
-	)
-	(label "GNDA_JACK"
-		(at 777.24 275.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e01543a-ee69-4297-bbc3-e0015c69a080")
 	)
 	(label "SWD"
 		(at 381 318.77 0)
@@ -26464,16 +26454,6 @@
 		)
 		(uuid "c6d6bf7d-437c-47bb-a727-97ba867656a1")
 	)
-	(label "GNDA_JACK"
-		(at 769.62 416.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7b58c7e-124f-4501-9c37-c8e023ffccd2")
-	)
 	(label "DISPLAY_DC_JACK"
 		(at 701.04 518.16 180)
 		(effects
@@ -26634,6 +26614,16 @@
 		)
 		(uuid "d4cef551-5bd9-4270-bbef-d5912a66ada8")
 	)
+	(label "GND_JACK"
+		(at 777.24 275.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d564166b-dd77-4ea9-b055-986a1d7d706a")
+	)
 	(label "XOUT"
 		(at 419.1 269.24 0)
 		(effects
@@ -26673,6 +26663,16 @@
 			(justify right bottom)
 		)
 		(uuid "d7d5a66f-baad-4027-b1cb-f9da2c0b4570")
+	)
+	(label "GND_JACK"
+		(at 778.51 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8c7f5c7-f680-455d-a96e-2d452ae036d1")
 	)
 	(label "USB_HOST_DM_JACK"
 		(at 698.5 492.76 180)
