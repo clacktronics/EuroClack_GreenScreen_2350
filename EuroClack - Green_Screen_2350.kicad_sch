@@ -15326,6 +15326,16 @@
 	)
 	(wire
 		(pts
+			(xy 627.38 84.455) (xy 627.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9137f8-2f2a-4adb-a163-d521189cc443")
+	)
+	(wire
+		(pts
 			(xy 657.86 165.1) (xy 675.64 165.1)
 		)
 		(stroke
@@ -18233,16 +18243,6 @@
 			(type default)
 		)
 		(uuid "6d60b3fc-007c-4a84-bb53-3329f266d8fa")
-	)
-	(wire
-		(pts
-			(xy 627.38 84.455) (xy 627.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d72d6c2-9727-4b32-b470-233e474d512a")
 	)
 	(wire
 		(pts
@@ -22206,16 +22206,6 @@
 	)
 	(wire
 		(pts
-			(xy 612.14 48.26) (xy 612.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1cfad1-b207-47cc-add9-1622630281e4")
-	)
-	(wire
-		(pts
 			(xy 476.25 198.12) (xy 478.79 198.12)
 		)
 		(stroke
@@ -23193,6 +23183,16 @@
 			(type default)
 		)
 		(uuid "e1ea982a-6479-4d32-8e2c-9553d5646dbd")
+	)
+	(wire
+		(pts
+			(xy 612.14 48.26) (xy 612.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2895bc7-be4d-4387-bca8-c8d55cb11b2e")
 	)
 	(wire
 		(pts
@@ -26224,6 +26224,16 @@
 		)
 		(uuid "ad7b5873-efb9-4f63-a15a-e1388562f95d")
 	)
+	(label "GND_JACK"
+		(at 612.14 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff6b694-dff2-48a5-aa48-37f85e2712d0")
+	)
 	(label "GATE_IN_2_MICRO"
 		(at 643.89 487.68 0)
 		(effects
@@ -26253,6 +26263,16 @@
 			(justify right bottom)
 		)
 		(uuid "b271da85-bab2-4acf-9140-e56a45be5325")
+	)
+	(label "GND_JACK"
+		(at 627.38 92.71 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2d08be6-2145-4af8-83fa-3c3778bc05ce")
 	)
 	(label "CV_OUT_2_MICRO"
 		(at 749.3 304.8 180)
@@ -41594,70 +41614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 612.14 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67480b69-dc16-4973-ba68-0d2f26125adb")
-		(property "Reference" "#PWR0127"
-			(at 612.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 612.267 56.4642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f1929bf-8a57-4aea-94e6-8b470adb2f7d")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 689.61 210.82 90)
 		(unit 1)
@@ -41720,70 +41676,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "FB6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 627.38 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67a48d8b-17e9-45c1-abb9-6d83a76fca2c")
-		(property "Reference" "#PWR0159"
-			(at 627.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 627.507 90.7542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96696731-5d8b-470d-a1f8-2660c43aed66")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
