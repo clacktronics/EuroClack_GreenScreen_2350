@@ -14696,6 +14696,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 88.9) (xy 487.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e43eedf-2f37-41e1-8e12-e6a16c793456")
+	)
+	(wire
+		(pts
 			(xy 699.77 566.42) (xy 680.72 566.42)
 		)
 		(stroke
@@ -15083,16 +15093,6 @@
 			(type default)
 		)
 		(uuid "161c8e54-fcfc-4671-b822-d93be38a2b96")
-	)
-	(wire
-		(pts
-			(xy 497.84 88.9) (xy 497.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17222589-a602-460d-8ce8-28751e7ebb77")
 	)
 	(wire
 		(pts
@@ -18826,6 +18826,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 92.71) (xy 417.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aee52df-715d-4306-a2b5-40fec6d2b2b0")
+	)
+	(wire
+		(pts
 			(xy 769.62 449.58) (xy 782.32 449.58)
 		)
 		(stroke
@@ -19296,6 +19306,26 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 88.9) (xy 473.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847b138c-09d8-4062-9177-5f1d4e1205b7")
+	)
+	(wire
+		(pts
+			(xy 497.84 88.9) (xy 497.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847d86d2-a5e2-48b9-9493-3ca1216f7e01")
+	)
+	(wire
+		(pts
 			(xy 293.37 242.57) (xy 303.53 242.57)
 		)
 		(stroke
@@ -19756,6 +19786,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 90.17) (xy 397.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930356e7-338f-4fd5-91c3-d9987ef9c4fb")
+	)
+	(wire
+		(pts
 			(xy 477.52 143.51) (xy 487.68 143.51)
 		)
 		(stroke
@@ -20193,16 +20233,6 @@
 			(type default)
 		)
 		(uuid "9c28c252-f3cc-4e5d-97a7-e1ca72b08f29")
-	)
-	(wire
-		(pts
-			(xy 487.68 88.9) (xy 487.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c52e57d-4146-4f64-b72a-8842918e238d")
 	)
 	(wire
 		(pts
@@ -23466,16 +23496,6 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 92.71) (xy 417.83 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e16f60-e45e-48f8-80f5-a87219e3a096")
-	)
-	(wire
-		(pts
 			(xy 146.05 533.4) (xy 168.91 533.4)
 		)
 		(stroke
@@ -24026,6 +24046,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.2 99.06) (xy 444.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99949fa-4792-4738-9622-878a11c2723c")
+	)
+	(wire
+		(pts
 			(xy 433.07 177.8) (xy 441.96 177.8)
 		)
 		(stroke
@@ -24093,6 +24123,16 @@
 			(type default)
 		)
 		(uuid "fb57c216-a876-45a4-91b6-c43f19157f11")
+	)
+	(wire
+		(pts
+			(xy 457.2 96.52) (xy 457.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb60626a-4301-4bd5-8f0c-35314f52a7a3")
 	)
 	(wire
 		(pts
@@ -24424,6 +24464,16 @@
 		)
 		(uuid "1024c189-68b4-4637-b151-1ced1815b307")
 	)
+	(label "GND_JACK"
+		(at 417.83 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "112c3d9b-6cba-4fae-a40d-8e247a67dd62")
+	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 525.78 292.1 180)
 		(effects
@@ -24443,6 +24493,16 @@
 			(justify right bottom)
 		)
 		(uuid "13349b6d-faab-4dcb-9dd7-efe420967635")
+	)
+	(label "GND_JACK"
+		(at 444.5 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1388abaf-e17b-4760-a643-e09ad9bb7db9")
 	)
 	(label "QSPI_SD3"
 		(at 543.56 411.48 180)
@@ -25004,6 +25064,16 @@
 		)
 		(uuid "41ecc64f-40e7-477f-930a-0ac1100ac333")
 	)
+	(label "GND_JACK"
+		(at 473.71 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "421107ba-4e9f-45b0-ad9b-2dbdc0082ca3")
+	)
 	(label "MCU_GATE_OUT_1"
 		(at 628.65 410.21 0)
 		(effects
@@ -25503,6 +25573,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c557dbd-47a7-4968-9dfc-19ebc2309ad3")
+	)
+	(label "GND_JACK"
+		(at 487.68 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d292928-889c-4013-b239-71cba0ca79eb")
 	)
 	(label "12V_JACK"
 		(at 386.08 82.55 0)
@@ -26314,6 +26394,16 @@
 		)
 		(uuid "b7abb10d-018a-457e-9d37-a63b25aaaf96")
 	)
+	(label "GND_JACK"
+		(at 397.51 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8baac5d-c75d-4f54-9d0b-91dc4743c9f2")
+	)
 	(label "CV_OUT_4_JACK"
 		(at 765.81 370.84 0)
 		(effects
@@ -26763,6 +26853,16 @@
 			(justify left bottom)
 		)
 		(uuid "decdd626-16a2-4873-ae99-0d6abe0f675e")
+	)
+	(label "GND_JACK"
+		(at 497.84 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2d9f30-7c65-4a70-bfac-ad82b60031fc")
 	)
 	(label "QSPI_SCLK"
 		(at 493.395 408.94 0)
@@ -31826,72 +31926,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 487.68 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22cc41bc-72e7-4ff4-bc0e-b49a2ab74fbe")
-		(property "Reference" "#PWR0154"
-			(at 487.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 487.68 94.3031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 487.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 487.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 487.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0cfb595-8d0c-4067-ba1d-a80763f84f4a")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -37031,72 +37065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 397.51 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "431ae3e5-d542-4aca-a329-bfce29e4960b")
-		(property "Reference" "#PWR0150"
-			(at 397.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 397.51 94.3031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 397.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e456241d-0082-437e-b336-d7af92116952")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 516.89 212.09 270)
 		(unit 1)
@@ -37577,72 +37545,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 417.83 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48b95cb6-b08a-4b4f-9983-3b1b93cbbad3")
-		(property "Reference" "#PWR0151"
-			(at 417.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 417.83 99.3831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 417.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 417.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 417.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "563a649c-2121-477a-a8c5-40c12d60a749")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -38860,72 +38762,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 497.84 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "543bc015-62b2-471a-be0b-86bc5f6556b9")
-		(property "Reference" "#PWR0155"
-			(at 497.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 497.84 94.3031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 497.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 497.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 497.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c52f8903-8284-4d24-ab0f-7b71351b7502")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -40393,72 +40229,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 473.71 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dd8db0f-ac2b-41aa-8543-fadf67585e46")
-		(property "Reference" "#PWR0153"
-			(at 473.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 473.71 93.0331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 473.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 473.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 473.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77743e0e-ffdb-45a6-b4c4-8855fc027a56")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -46953,72 +46723,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "R94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 457.2 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "970be11a-83e5-4b04-b450-75346a0126ae")
-		(property "Reference" "#PWR0152"
-			(at 457.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 457.2 100.6531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e02b7522-9d5e-4f08-ab15-1cee1ed27c5f")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
