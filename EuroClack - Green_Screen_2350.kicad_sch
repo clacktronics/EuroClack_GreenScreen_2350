@@ -12578,7 +12578,7 @@
 	)
 	(text "I2C_0"
 		(exclude_from_sim no)
-		(at 487.426 278.384 0)
+		(at 485.648 240.284 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14158,6 +14158,10 @@
 	(no_connect
 		(at 781.05 414.02)
 		(uuid "88c64b42-99cd-4b90-8dc5-9382585bc409")
+	)
+	(no_connect
+		(at 516.89 236.22)
+		(uuid "95a620d3-441e-4567-903c-0fc67cad8671")
 	)
 	(no_connect
 		(at 596.9 241.3)
@@ -20863,7 +20867,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 231.14) (xy 523.24 231.14)
+			(xy 501.65 231.14) (xy 524.51 231.14)
 		)
 		(stroke
 			(width 0)
@@ -24352,7 +24356,7 @@
 		(uuid "017c1cc8-4d8c-43ae-bc3e-323cd10eb657")
 	)
 	(label "I2S_ADC_BCK"
-		(at 518.16 243.84 180)
+		(at 516.89 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24362,7 +24366,7 @@
 		(uuid "01ad975e-c382-489a-97c1-43bcba5ec7ae")
 	)
 	(label "I2S_ADC_LRCK"
-		(at 518.16 246.38 180)
+		(at 516.89 254 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24422,7 +24426,7 @@
 		(uuid "0b40d024-5c0e-45d1-9bc0-a3693ad03b6a")
 	)
 	(label "I2S_ADC_DOUT"
-		(at 518.16 248.92 180)
+		(at 516.89 256.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25102,7 +25106,7 @@
 		(uuid "42a2c97e-5b0a-4485-bb83-c2098bc55b86")
 	)
 	(label "USB_HOST_DM_MICRO"
-		(at 524.51 251.46 180)
+		(at 524.51 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25382,7 +25386,7 @@
 		(uuid "5e5ca5f2-94e8-47a8-8d4f-e77ed5a0da30")
 	)
 	(label "I2S_DAC_LRCK"
-		(at 518.16 233.68 180)
+		(at 519.43 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25702,7 +25706,7 @@
 		(uuid "76537e75-bb3f-4987-9409-74a077d9493a")
 	)
 	(label "I2S_DAC_BCK"
-		(at 516.89 231.14 180)
+		(at 518.16 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26742,7 +26746,7 @@
 		(uuid "d78cb7bf-f902-4280-9adb-2d8177248732")
 	)
 	(label "I2S_DAC_DIN"
-		(at 516.89 236.22 180)
+		(at 518.16 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27132,7 +27136,7 @@
 		(uuid "f8968e13-e6d9-4524-a178-c3aad4c15b78")
 	)
 	(label "USB_HOST_DP_MICRO"
-		(at 524.51 254 180)
+		(at 524.51 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
