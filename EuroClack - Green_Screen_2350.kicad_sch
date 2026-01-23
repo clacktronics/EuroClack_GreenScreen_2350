@@ -12664,6 +12664,12 @@
 		(uuid "0885179d-5915-46df-a8dd-ec74eda7047c")
 	)
 	(junction
+		(at 313.69 314.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09738341-2557-4eac-ad73-f3883f211188")
+	)
+	(junction
 		(at 529.59 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12686,12 +12692,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10817c69-bd33-494f-80c5-888b6a6b4995")
-	)
-	(junction
-		(at 313.69 311.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1087d9e4-2a23-49d0-b461-9fd419642099")
 	)
 	(junction
 		(at 43.18 341.63)
@@ -18057,16 +18057,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 308.61) (xy 313.69 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6908275e-a726-4d3e-8571-c2ae12a0b4e3")
-	)
-	(wire
-		(pts
 			(xy 501.65 299.72) (xy 519.43 299.72)
 		)
 		(stroke
@@ -18664,6 +18654,16 @@
 			(type default)
 		)
 		(uuid "75cc9092-1eee-4c78-9a9d-9e9f8c81ac57")
+	)
+	(wire
+		(pts
+			(xy 313.69 314.96) (xy 313.69 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e83491-2502-44a9-9549-23c6b4fe3a55")
 	)
 	(wire
 		(pts
@@ -19887,7 +19887,7 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 275.59) (xy 788.67 275.59)
+			(xy 768.35 275.59) (xy 788.67 275.59)
 		)
 		(stroke
 			(width 0)
@@ -24505,16 +24505,6 @@
 		)
 		(uuid "1024c189-68b4-4637-b151-1ced1815b307")
 	)
-	(label "GNDA_JACK"
-		(at 777.24 309.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "104869f8-4edc-495e-bb4b-961f88cb4cbc")
-	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 525.78 292.1 180)
 		(effects
@@ -24564,6 +24554,16 @@
 			(justify left bottom)
 		)
 		(uuid "146f1a1c-3692-4231-b24c-8647afd78881")
+	)
+	(label "GND_JACK"
+		(at 769.62 416.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "147892f7-f866-46c3-b03b-a42ea280c1a2")
 	)
 	(label "CV_IN_1_MICRO"
 		(at 142.24 332.74 0)
@@ -24665,6 +24665,16 @@
 		)
 		(uuid "1d207d52-f297-40af-aa1b-c3935b3d29e2")
 	)
+	(label "GND_JACK"
+		(at 777.24 309.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d3dafe5-4c2b-42fe-950f-f420bb2e5472")
+	)
 	(label "ENC2_SW_MICRO"
 		(at 519.43 307.34 180)
 		(effects
@@ -24694,16 +24704,6 @@
 			(justify left bottom)
 		)
 		(uuid "202ab59c-a932-4978-bf5b-634ece1ede58")
-	)
-	(label "GNDA_JACK"
-		(at 102.87 351.79 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "202f7ef7-0bab-4a77-a09b-2f39845a6638")
 	)
 	(label "MCU_CV_IN_1"
 		(at 516.89 332.74 180)
@@ -24915,6 +24915,16 @@
 		)
 		(uuid "33cb2808-3da6-4e1f-8b7c-b4361959162c")
 	)
+	(label "GND_JACK"
+		(at 778.51 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e3dcff-ce78-445b-a393-3113b9738914")
+	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 642.62 33.02 0)
 		(effects
@@ -25025,15 +25035,15 @@
 		)
 		(uuid "3d87ee3e-3483-4e3a-ba32-1360a6c83086")
 	)
-	(label "GNDA_JACK"
-		(at 778.51 375.92 0)
+	(label "GND_JACK"
+		(at 736.6 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3e01a2a2-e01c-4887-bcae-566c267f437a")
+		(uuid "3eba1b8a-867a-4f1e-93c4-610c210c946a")
 	)
 	(label "MCU_GATE_OUT_2"
 		(at 628.65 443.23 0)
@@ -25125,15 +25135,15 @@
 		)
 		(uuid "43fba24d-bc81-46a5-9f36-0ac12d0a4fe4")
 	)
-	(label "GNDA_JACK"
-		(at 102.87 313.69 90)
+	(label "GND_JACK"
+		(at 106.68 520.7 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4756749d-d0c1-456c-a7d8-8959f950d293")
+		(uuid "45f78175-cb46-437a-8d32-c830bd21cf2d")
 	)
 	(label "GNDA_JACK"
 		(at 778.51 342.9 0)
@@ -25154,16 +25164,6 @@
 			(justify right bottom)
 		)
 		(uuid "49460949-e1a3-4d7a-baf6-82ff5d04045a")
-	)
-	(label "GNDA_JACK"
-		(at 101.6 276.86 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a19c9da-4d4a-4be8-a402-f494e770a22f")
 	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 641.35 533.4 0)
@@ -25195,15 +25195,15 @@
 		)
 		(uuid "4b65d1f0-8aa4-4fb1-8257-306555388b85")
 	)
-	(label "GNDA_JACK"
-		(at 102.87 394.97 90)
+	(label "GND_JACK"
+		(at 102.87 313.69 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4e0e7e46-3b0a-4ac2-9f5c-689e8553c95b")
+		(uuid "4dc1a75c-50e1-4cc4-b08d-592dc184d8f1")
 	)
 	(label "GND_JACK"
 		(at 499.11 135.89 90)
@@ -25475,6 +25475,16 @@
 		)
 		(uuid "66dd7a3f-198b-47d3-8327-a7eb1c1c900d")
 	)
+	(label "GND_JACK"
+		(at 739.14 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66f35678-e467-4a95-966d-508ee54464c6")
+	)
 	(label "SD_CMD"
 		(at 397.51 125.73 0)
 		(effects
@@ -25595,6 +25605,16 @@
 		)
 		(uuid "6c557dbd-47a7-4968-9dfc-19ebc2309ad3")
 	)
+	(label "GND_JACK"
+		(at 101.6 276.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7a56b8-8329-4b15-acdf-5de9c26bd6bb")
+	)
 	(label "12V_JACK"
 		(at 386.08 82.55 0)
 		(effects
@@ -25694,6 +25714,16 @@
 			(justify right bottom)
 		)
 		(uuid "745f8a88-c299-4360-a706-09085862060d")
+	)
+	(label "GND_JACK"
+		(at 102.87 351.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74eff110-528c-42dc-af60-cd3cc34a1ae6")
 	)
 	(label "HSTX16_RST"
 		(at 645.16 525.78 0)
@@ -25945,6 +25975,16 @@
 		)
 		(uuid "8b171742-6093-4927-ad36-d398adfc6247")
 	)
+	(label "GND_JACK"
+		(at 102.87 394.97 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b543e2f-bdb5-4a26-96d5-9e6e5a133045")
+	)
 	(label "SD_DAT0"
 		(at 516.89 320.04 180)
 		(effects
@@ -25964,16 +26004,6 @@
 			(justify left bottom)
 		)
 		(uuid "8beaf137-6503-47c5-b25c-bf6e3cac9eeb")
-	)
-	(label "GNDA_JACK"
-		(at 769.62 449.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90678cef-8199-4996-b7f4-92a5c501163d")
 	)
 	(label "AUDIO_IN_2_JACK"
 		(at 133.35 294.64 180)
@@ -26055,6 +26085,16 @@
 		)
 		(uuid "95378366-be9a-425a-9576-eaf7ed5a492d")
 	)
+	(label "GND_JACK"
+		(at 768.35 275.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e7d503-ee46-418a-9975-87c54c8eebd0")
+	)
 	(label "SW_USR2_JACK"
 		(at 676.91 71.12 0)
 		(effects
@@ -26074,6 +26114,16 @@
 			(justify left bottom)
 		)
 		(uuid "9654a943-d116-4288-829a-ae52410e25e5")
+	)
+	(label "GND_JACK"
+		(at 107.95 552.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9681b0e8-996f-427b-8b4d-a7c9ea289bc1")
 	)
 	(label "AUDIO_OUT_2_MICRO"
 		(at 717.55 226.06 180)
@@ -26125,16 +26175,6 @@
 		)
 		(uuid "9cd4db31-8583-4339-9554-0f5b9c96bee5")
 	)
-	(label "GNDA_JACK"
-		(at 777.24 275.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e01543a-ee69-4297-bbc3-e0015c69a080")
-	)
 	(label "SWD"
 		(at 381 318.77 0)
 		(effects
@@ -26174,16 +26214,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f1f4c88-19a1-448e-a7b1-bf50c620ea9a")
-	)
-	(label "GNDA_JACK"
-		(at 739.14 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f9efd70-7131-4eed-9c09-957a24f4ac96")
 	)
 	(label "QSPI_SD2"
 		(at 543.56 408.94 180)
@@ -26395,16 +26425,6 @@
 		)
 		(uuid "b8bc475b-b68d-40eb-9249-b22aad22dda0")
 	)
-	(label "GNDA_JACK"
-		(at 106.68 520.7 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b906bd52-0801-4f19-b010-e4ec96e7c644")
-	)
 	(label "VREG_AVDD"
 		(at 421.005 207.01 0)
 		(effects
@@ -26434,6 +26454,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc87053d-8eb7-48a5-b25e-7ab6e7cfe422")
+	)
+	(label "GND_JACK"
+		(at 105.41 441.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdf80e30-4df5-425c-bf08-db3099535bf9")
 	)
 	(label "I2S_ADC_MD0"
 		(at 283.21 281.94 0)
@@ -26544,16 +26574,6 @@
 			(justify left bottom)
 		)
 		(uuid "c6d6bf7d-437c-47bb-a727-97ba867656a1")
-	)
-	(label "GNDA_JACK"
-		(at 769.62 416.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7b58c7e-124f-4501-9c37-c8e023ffccd2")
 	)
 	(label "DISPLAY_DC_JACK"
 		(at 701.04 515.62 180)
@@ -26895,16 +26915,6 @@
 		)
 		(uuid "e4105c19-9f0c-4d00-a761-c7c322f8ce7e")
 	)
-	(label "GNDA_JACK"
-		(at 107.95 552.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e68dcfa2-c0aa-4cdd-bcc7-96ee70974d7d")
-	)
 	(label "SWCLK"
 		(at 381 313.69 0)
 		(effects
@@ -26985,16 +26995,6 @@
 		)
 		(uuid "ed029907-7191-4842-aa36-4f84c17286b5")
 	)
-	(label "GNDA_JACK"
-		(at 107.95 485.14 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed6f93c8-1596-4d39-9318-49a318fcdf38")
-	)
 	(label "~{USBH_PWR_EN_JACK}"
 		(at 554.99 123.19 0)
 		(effects
@@ -27065,15 +27065,15 @@
 		)
 		(uuid "f584fec9-6e31-48c6-a412-1c0dc30b2c0c")
 	)
-	(label "GNDA_JACK"
-		(at 105.41 441.96 90)
+	(label "GND_JACK"
+		(at 107.95 485.14 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f6f445d8-5703-48f6-b06e-ced358d16da1")
+		(uuid "f5c59a33-7399-497a-a73d-e06ba2fb63c4")
 	)
 	(label "~{QSPI_SS}"
 		(at 396.24 240.03 0)
@@ -27094,16 +27094,6 @@
 			(justify right bottom)
 		)
 		(uuid "f759776d-4f76-46df-9477-a972f1d4002b")
-	)
-	(label "GNDA_JACK"
-		(at 736.6 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7aaa775-593d-4423-91b3-fbc748104f18")
 	)
 	(label "USB_DN"
 		(at 534.67 220.98 180)
@@ -27184,6 +27174,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb60bbb0-0e7f-4fbb-aa2e-3622ddeb78e8")
+	)
+	(label "GND_JACK"
+		(at 769.62 449.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb6cd709-804f-46d6-b3d0-1cd95eb11bc8")
 	)
 	(label "~{SW_USR2_MICRO}"
 		(at 524.51 297.18 180)
@@ -34777,73 +34777,6 @@
 			(project ""
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 313.69 308.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "370c2448-b153-4c7a-996c-bb301b35e309")
-		(property "Reference" "#PWR0165"
-			(at 313.69 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 313.69 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 313.69 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dd77bb8-1e0f-4031-b940-23509db366d5")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -52486,6 +52419,72 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 313.69 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde2d832-3f74-4468-ab42-ae5825b3b3b8")
+		(property "Reference" "#PWR02"
+			(at 313.69 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 321.6331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6f04ca-309c-4ced-ad23-6f7fc4a204f6")
+		)
+		(instances
+			(project "EuroClack - Green_Screen_2350"
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
