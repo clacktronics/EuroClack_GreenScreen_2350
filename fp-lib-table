@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "green_screen")(type "KiCad")(uri "${KIPRJMOD}/green_screen.pretty")(options "")(descr ""))
   (lib (name "RP2350_80QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_80QFN_minimal.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA_Lib")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
 )

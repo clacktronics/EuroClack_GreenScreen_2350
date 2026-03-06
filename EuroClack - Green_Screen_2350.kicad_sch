@@ -7870,6 +7870,424 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA_Lib:PS-8556DVA-6PN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:SW-TH_PS-8556DVA-6PN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/PS-8556DVA-6PN/5785363.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Self Lock / No Lock:Non-Latching Actuator Style:Rectangular Plunger Mounting Type:- Contact Current:500mA Voltage Rating:24V Actuator/Cap Color:White With Lamp:Without Termination Style:- Operating Force:1.8N Operating Temperature:-40°C~+85°C Operating Temp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PS-8556DVA-6PN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "G-Switch(品赞)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C5155610"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "高头无锁,行程1.2mm,按动力180gf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PS-8556DVA-6PN_1_0"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.794 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.286 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 5.08) (xy -2.54 5.08) (xy 0 5.08) (xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.794 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.286 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -5.08) (xy -2.54 -5.08) (xy 0 -5.08) (xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 6.35) (xy 0 6.35) (xy 2.54 6.35) (xy 2.54 6.35) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.254 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.254 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.254 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.254 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -6.35) (xy 0 -6.35) (xy 2.54 -6.35) (xy 2.54 -6.35) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.286 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.794 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.286 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.794 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -12278,16 +12696,6 @@
 		)
 		(uuid "31d59103-171b-4ac3-908b-8660223a578b")
 	)
-	(text "C2834937"
-		(exclude_from_sim no)
-		(at 718.312 65.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33689796-436d-416b-a47e-fafd045bb54f")
-	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
 		(at 392.43 309.88 0)
@@ -12553,6 +12961,16 @@
 			)
 		)
 		(uuid "db22bbe4-f830-4cdd-88b1-064f497ca3ba")
+	)
+	(text "FUTURE DESIGN CHANGES\n=====================\n\nPower down memory save circuit\nReset and program as a single button?"
+		(exclude_from_sim no)
+		(at 792.48 93.472 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "db38fed2-33bd-47ea-bb77-374b8b95ccfb")
 	)
 	(text "Optional Secondary flash or PSRAM (U4), using the second chip select (XIP_SS_N[1]) on GPIO0.\nN.B. Pull-up R13 will be required as GPIOs default to pull-downs at power-up."
 		(exclude_from_sim no)
@@ -12950,12 +13368,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3704dbd3-2415-45ca-a9e9-4cc952c8b271")
-	)
-	(junction
-		(at 711.2 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38d722ce-eaa9-4451-9efa-fdef25acb4c9")
 	)
 	(junction
 		(at 711.2 304.8)
@@ -14108,6 +14520,10 @@
 		(uuid "1c11b80a-81b1-477e-aba6-6b3cf74a0d3a")
 	)
 	(no_connect
+		(at 407.67 149.86)
+		(uuid "20cf5519-42da-4b9f-87e6-cc4199c65dfc")
+	)
+	(no_connect
 		(at 407.67 133.35)
 		(uuid "2bd89f66-f76f-4d1b-9165-2b10ebce4f18")
 	)
@@ -14144,6 +14560,10 @@
 		(uuid "640ca974-8156-45ac-90ab-736210ede8cb")
 	)
 	(no_connect
+		(at 407.67 167.64)
+		(uuid "64687b09-447c-4cd0-8530-579f89d0a7b0")
+	)
+	(no_connect
 		(at 789.94 340.36)
 		(uuid "685c172d-1edd-4e6c-bdf1-27b97c70d807")
 	)
@@ -14168,8 +14588,16 @@
 		(uuid "965d2680-dd64-47d8-bc65-f11cfb40439a")
 	)
 	(no_connect
+		(at 407.67 152.4)
+		(uuid "a1866b35-d15c-4663-9ff5-d427adcdd466")
+	)
+	(no_connect
 		(at 791.21 373.38)
 		(uuid "a7e76bcf-1288-4e78-9d84-db5aa8ed0058")
+	)
+	(no_connect
+		(at 407.67 160.02)
+		(uuid "be9b5422-fcb4-4d4d-9295-f3eedef11673")
 	)
 	(no_connect
 		(at 99.06 260.35)
@@ -14178,6 +14606,10 @@
 	(no_connect
 		(at 100.33 335.28)
 		(uuid "cec9e56e-508f-4271-aec5-4199164a52ed")
+	)
+	(no_connect
+		(at 407.67 154.94)
+		(uuid "d9a6556b-ef8e-4736-96aa-851745248cd8")
 	)
 	(no_connect
 		(at 782.32 447.04)
@@ -14195,6 +14627,10 @@
 		(at 104.14 535.94)
 		(uuid "f98b4bd2-32f5-4aea-832d-fb48fa0f6d7b")
 	)
+	(no_connect
+		(at 407.67 165.1)
+		(uuid "fa94b44b-82f9-4626-a52e-ef1bbb3be8d0")
+	)
 	(wire
 		(pts
 			(xy 701.04 528.32) (xy 680.72 528.32)
@@ -14204,16 +14640,6 @@
 			(type default)
 		)
 		(uuid "001a1880-7fed-4208-9144-10e8a6cb44be")
-	)
-	(wire
-		(pts
-			(xy 711.2 58.42) (xy 711.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002212b4-23de-4dca-8659-17b656fb7dd9")
 	)
 	(wire
 		(pts
@@ -14387,7 +14813,7 @@
 	)
 	(wire
 		(pts
-			(xy 676.91 71.12) (xy 701.04 71.12)
+			(xy 675.64 83.82) (xy 701.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -15227,7 +15653,7 @@
 	)
 	(wire
 		(pts
-			(xy 711.2 71.12) (xy 711.2 82.55)
+			(xy 701.04 86.36) (xy 701.04 97.79)
 		)
 		(stroke
 			(width 0)
@@ -22867,6 +23293,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 60.96) (xy 701.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89578b0-ba7f-4634-a98a-93edb97b8073")
+	)
+	(wire
+		(pts
 			(xy 102.87 340.36) (xy 106.68 340.36)
 		)
 		(stroke
@@ -26096,7 +26532,7 @@
 		(uuid "95e7d503-ee46-418a-9975-87c54c8eebd0")
 	)
 	(label "SW_USR2_JACK"
-		(at 676.91 71.12 0)
+		(at 675.64 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26946,7 +27382,7 @@
 		(uuid "e8ae7364-1a39-4246-a536-311e12f314cc")
 	)
 	(label "GND_JACK"
-		(at 711.2 82.55 90)
+		(at 701.04 97.79 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27054,6 +27490,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3fc5011-ac74-401b-8834-6f0f23c32d40")
+	)
+	(label "GND_JACK"
+		(at 701.04 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f47200db-160f-4ade-8132-f2a98d75785e")
 	)
 	(label "DISPLAY_BLK_JACK"
 		(at 502.92 135.89 0)
@@ -30261,6 +30707,131 @@
 			(project ""
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:PS-8556DVA-6PN")
+		(at 711.2 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17795c3a-b4dd-41d3-b124-46f26df6f4d3")
+		(property "Reference" "SW1"
+			(at 711.2 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 711.2 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SW-TH_PS-8556DVA-6PN"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PS-8556DVA-6PN/5785363.html"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Self Lock / No Lock:Non-Latching Actuator Style:Rectangular Plunger Mounting Type:- Contact Current:500mA Voltage Rating:24V Actuator/Cap Color:White With Lamp:Without Termination Style:- Operating Force:1.8N Operating Temperature:-40°C~+85°C Operating Temp"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PS-8556DVA-6PN"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5155610"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "高头无锁,行程1.2mm,按动力180gf"
+			(at 711.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ab346e36-72a9-4841-80c6-b35043b038ce")
+		)
+		(pin "1"
+			(uuid "e8529e0e-c885-41c6-a565-eb35c462f606")
+		)
+		(pin "2"
+			(uuid "f4dd5a16-6d74-4e7f-8e46-52f66e492608")
+		)
+		(pin "5"
+			(uuid "7adaec96-b38d-439a-8c82-cae704aa170d")
+		)
+		(pin "3"
+			(uuid "9d81aa0d-9451-4f36-b4cf-c98e3db6b63c")
+		)
+		(pin "6"
+			(uuid "b65bd453-e4ae-4d7e-ab96-6997e035f3cc")
+		)
+		(instances
+			(project ""
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -34263,74 +34834,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 706.12 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "334d6299-2645-4cd4-aba2-bd418ebdf176")
-		(property "Reference" "SW5"
-			(at 706.12 64.0545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USER2"
-			(at 706.12 66.4788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
-			(at 706.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS-1095PS-A165B2-C3D2"
-			(at 706.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 706.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "903db371-f9dc-41f3-ab36-698d2be06c00")
-		)
-		(pin "2"
-			(uuid "ccef3b8b-b586-4520-a3d9-9fa5e911ab5b")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -42166,6 +42669,131 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA_Lib:PS-8556DVA-6PN")
+		(at 711.2 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d9ee7e8-e56c-4caa-a8aa-1aa35e5398a3")
+		(property "Reference" "SW2"
+			(at 711.2 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 711.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SW-TH_PS-8556DVA-6PN"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PS-8556DVA-6PN/5785363.html"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Self Lock / No Lock:Non-Latching Actuator Style:Rectangular Plunger Mounting Type:- Contact Current:500mA Voltage Rating:24V Actuator/Cap Color:White With Lamp:Without Termination Style:- Operating Force:1.8N Operating Temperature:-40°C~+85°C Operating Temp"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PS-8556DVA-6PN"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5155610"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "高头无锁,行程1.2mm,按动力180gf"
+			(at 711.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b5fd4f19-8bdf-4fda-bb88-41ea3656f523")
+		)
+		(pin "1"
+			(uuid "855f2096-3d36-4c13-b0ac-36f697ab0efd")
+		)
+		(pin "2"
+			(uuid "065d6b6e-5795-4f25-80e5-4f2657f65556")
+		)
+		(pin "5"
+			(uuid "ef95974b-4f13-4349-a84d-db4a8a8afdc0")
+		)
+		(pin "3"
+			(uuid "203900a5-f74e-44d2-9328-f9bf8393717a")
+		)
+		(pin "6"
+			(uuid "77b578b5-ce8f-4c37-a84b-541d29a66701")
+		)
+		(instances
+			(project "EuroClack - Green_Screen_2350"
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 39.37 287.02 180)
 		(unit 1)
@@ -44843,7 +45471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "green_screen:USB-A-SMD_AF180-13.1"
+		(property "Footprint" "green_screen:USB-A-TH_C42536"
 			(at 635 132.08 0)
 			(effects
 				(font
@@ -49417,74 +50045,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 706.12 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b01ef18b-919b-46f0-8bf4-5d5b7dc1ae75")
-		(property "Reference" "SW1"
-			(at 706.12 51.3545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 706.12 53.7788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
-			(at 706.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS-1095PS-A165B2-C3D2"
-			(at 706.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 706.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1088f74-2a3e-4fa4-825c-334ddf40c842")
-		)
-		(pin "2"
-			(uuid "a957a67b-bae0-43e7-8baa-b147ba8d04be")
-		)
-		(instances
-			(project ""
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
