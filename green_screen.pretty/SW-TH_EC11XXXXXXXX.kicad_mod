@@ -308,7 +308,7 @@
 		(remove_unused_layers no)
 		(uuid "f9c14b49-9801-46f8-af23-6e15cd313cf8")
 	)
-	(pad "D" thru_hole circle
+	(pad "S1" thru_hole circle
 		(at -2.540132 -7.250064)
 		(size 1.8 1.8)
 		(drill 1.300025)
@@ -316,7 +316,7 @@
 		(remove_unused_layers no)
 		(uuid "db157bb0-d8fc-4f67-bd0a-a304d805f3aa")
 	)
-	(pad "E" thru_hole circle
+	(pad "S2" thru_hole circle
 		(at 2.539878 -7.250064)
 		(size 1.8 1.8)
 		(drill 1.300025)

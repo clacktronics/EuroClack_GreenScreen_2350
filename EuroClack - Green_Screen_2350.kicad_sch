@@ -14572,6 +14572,10 @@
 		(uuid "7779ab9c-0ab4-4154-8895-b2af6c9edada")
 	)
 	(no_connect
+		(at 570.23 414.02)
+		(uuid "7d0f680e-6808-4b51-9485-4a0e7df7a2a1")
+	)
+	(no_connect
 		(at 487.68 143.51)
 		(uuid "7e4e1bd2-4d1e-4f6a-81f8-8327bd3b9e92")
 	)
@@ -14622,6 +14626,10 @@
 	(no_connect
 		(at 177.8 172.72)
 		(uuid "f2dd287f-2c8c-4103-ab85-a35feab72f1f")
+	)
+	(no_connect
+		(at 519.43 279.4)
+		(uuid "f7eafc66-d252-4faa-871f-44a6c795ac9b")
 	)
 	(no_connect
 		(at 104.14 535.94)
@@ -16923,7 +16931,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 246.38) (xy 518.16 246.38)
+			(xy 501.65 246.38) (xy 519.43 246.38)
 		)
 		(stroke
 			(width 0)
@@ -37287,7 +37295,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x40")
-		(at 675.64 520.7 180)
+		(at 675.64 518.16 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37295,7 +37304,7 @@
 		(dnp no)
 		(uuid "427d808c-b431-4d34-8bab-4dfd767cfb51")
 		(property "Reference" "J22"
-			(at 673.608 520.6422 0)
+			(at 673.608 518.2178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37305,7 +37314,7 @@
 			)
 		)
 		(property "Value" "C2856837"
-			(at 673.608 518.2179 0)
+			(at 673.608 520.6421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37315,7 +37324,7 @@
 			)
 		)
 		(property "Footprint" "green_screen:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
-			(at 675.64 520.7 0)
+			(at 675.64 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37324,7 +37333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 675.64 520.7 0)
+			(at 675.64 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37333,7 +37342,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 675.64 520.7 0)
+			(at 675.64 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
