@@ -12636,6 +12636,18 @@
 		)
 		(uuid "01df40c5-b35a-4f54-87f6-d059d94d320a")
 	)
+	(text "AUDIO IN 1"
+		(exclude_from_sim no)
+		(at 92.71 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "03adab3c-6eb5-458f-9b98-ef57c52b1dcd")
+	)
 	(text "JACK BOARD"
 		(exclude_from_sim no)
 		(at 407.162 145.796 0)
@@ -12707,6 +12719,18 @@
 		)
 		(uuid "33c4fdae-cec9-44a3-a14e-c349a1601725")
 	)
+	(text "AUDIO IN 2"
+		(exclude_from_sim no)
+		(at 93.726 308.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "373f568e-1bfc-4fee-b140-830299ed3082")
+	)
 	(text "Typical used 128x64 OLED mono Display 27x19 0.2mm pixel\nProposed 280x240 LCD TFT colour Display 30x35 0.1mm pixel"
 		(exclude_from_sim no)
 		(at 526.796 142.748 0)
@@ -12716,6 +12740,16 @@
 			)
 		)
 		(uuid "3743f660-5c7d-4c24-8cda-c02fe57632f4")
+	)
+	(text "Errors List\n\nOpamps are not suitable for 12V\nC38, C87 wrong footprint\nC8, C2, C1, C7 wrong footprint"
+		(exclude_from_sim no)
+		(at -68.834 353.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46bd5d6e-1e45-4d68-b6e2-e0fc9afc7410")
 	)
 	(text "Expected CV range +-5V\nCV gain 33K/100K = 0.33\nOutput +-5V * 0.33 = +-1.65V\nOffset -3.3V *(33K/68K) = -1.6V"
 		(exclude_from_sim no)
@@ -12728,6 +12762,30 @@
 		)
 		(uuid "48476a0e-9f6e-4011-ad80-f362128f475c")
 	)
+	(text "GATE_OUT_1"
+		(exclude_from_sim no)
+		(at 788.924 425.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "485239af-89e3-4f47-916e-6f2666781062")
+	)
+	(text "GATE_IN_2"
+		(exclude_from_sim no)
+		(at 96.266 546.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "49c40f77-3af9-400f-9384-b3496b8a9452")
+	)
 	(text "JACK BOARD FFC"
 		(exclude_from_sim no)
 		(at 690.372 463.804 0)
@@ -12737,6 +12795,30 @@
 			)
 		)
 		(uuid "4cf55217-f1f3-40ac-b72a-33b86bbb4bd8")
+	)
+	(text "GATE_IN_1"
+		(exclude_from_sim no)
+		(at 95.25 517.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5232dcff-da5f-461b-be6c-1477251ecb0b")
+	)
+	(text "GATE_OUT_2"
+		(exclude_from_sim no)
+		(at 788.924 458.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5f30fcfa-1813-4d50-ab5f-3d172bb6ee5e")
 	)
 	(text "Notes:\nYamishini seems to be the only vertical micro SD card holer\nNeed to find an I2S equivalent for audio input\n\nI2S INPUT CJC5340 or CJC1808\nI2s OUTPUT\n"
 		(exclude_from_sim no)
@@ -12808,6 +12890,18 @@
 			)
 		)
 		(uuid "74b6402b-b57e-441c-8cf9-3a51191df8f8")
+	)
+	(text "CV_OUT_3"
+		(exclude_from_sim no)
+		(at 796.798 351.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "77b01239-9cc9-4c79-bed3-ab75e048e306")
 	)
 	(text "+ CV Out"
 		(exclude_from_sim no)
@@ -12882,6 +12976,30 @@
 		)
 		(uuid "a27e393e-aee2-4b03-848f-c2aec4a56944")
 	)
+	(text "CV_OUT_1"
+		(exclude_from_sim no)
+		(at 794.766 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a8e35bd0-da9a-4976-bc1e-fa6790214f3b")
+	)
+	(text "AUDIO_OUT_1"
+		(exclude_from_sim no)
+		(at 761.238 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a94519f7-130b-4e2f-8b28-b7a34d4a79a9")
+	)
 	(text "I2C_1"
 		(exclude_from_sim no)
 		(at 482.854 286.512 0)
@@ -12904,6 +13022,42 @@
 			)
 		)
 		(uuid "ac588588-042b-478f-b44d-d5b2bcdb2677")
+	)
+	(text "CV_GATE_IN_4"
+		(exclude_from_sim no)
+		(at 94.996 481.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b1dfd87a-b746-4911-8e2c-00916e2fb716")
+	)
+	(text "CV_GATE_IN_3"
+		(exclude_from_sim no)
+		(at 95.25 437.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bb567a42-338a-499b-b897-dea96bc18820")
+	)
+	(text "AUDIO_OUT_2"
+		(exclude_from_sim no)
+		(at 761.746 240.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bc0caeff-c9de-4992-ba2e-33dc5d0dc3c8")
 	)
 	(text "C692433"
 		(exclude_from_sim no)
@@ -12939,6 +13093,18 @@
 		)
 		(uuid "d133ac7b-df12-4d2f-8ba9-421bd6bfd1b8")
 	)
+	(text "CV_GATE_IN_1"
+		(exclude_from_sim no)
+		(at 93.218 346.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d3d88724-f95f-4d74-b873-560aac6762e6")
+	)
 	(text "+Audio L OUT"
 		(exclude_from_sim no)
 		(at 780.542 212.852 0)
@@ -12971,6 +13137,30 @@
 			)
 		)
 		(uuid "db38fed2-33bd-47ea-bb77-374b8b95ccfb")
+	)
+	(text "CV_GATE_IN_2"
+		(exclude_from_sim no)
+		(at 90.678 388.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dbbc3d15-9765-44a8-ab3a-ab19782d63c9")
+	)
+	(text "CV_OUT_4"
+		(exclude_from_sim no)
+		(at 798.322 384.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dd8c7a85-37eb-401a-9e52-3cd8d7d6ebf7")
 	)
 	(text "Optional Secondary flash or PSRAM (U4), using the second chip select (XIP_SS_N[1]) on GPIO0.\nN.B. Pull-up R13 will be required as GPIOs default to pull-downs at power-up."
 		(exclude_from_sim no)
@@ -13028,6 +13218,18 @@
 			(justify left)
 		)
 		(uuid "f6ede1d4-98d3-4b8f-92df-9df571cb3bcc")
+	)
+	(text "CV_OUT_2"
+		(exclude_from_sim no)
+		(at 797.814 318.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fa35dfac-2f06-42ac-a62e-7d613e6e50c5")
 	)
 	(text "(UART1_TX)"
 		(exclude_from_sim no)
@@ -14528,6 +14730,10 @@
 		(uuid "2bd89f66-f76f-4d1b-9165-2b10ebce4f18")
 	)
 	(no_connect
+		(at 871.22 304.8)
+		(uuid "33ce2c89-8872-416f-bfcd-926c37d84e16")
+	)
+	(no_connect
 		(at 407.67 128.27)
 		(uuid "35c60a66-ae99-4ac5-a805-f4814767013f")
 	)
@@ -14546,6 +14752,10 @@
 	(no_connect
 		(at 99.06 377.19)
 		(uuid "48fd1b14-b25a-45c1-aa8a-134111c39d3b")
+	)
+	(no_connect
+		(at 721.36 83.82)
+		(uuid "4c80b90d-1b6a-4495-96b3-ecc21f43d374")
 	)
 	(no_connect
 		(at 789.94 307.34)
@@ -14568,6 +14778,14 @@
 		(uuid "685c172d-1edd-4e6c-bdf1-27b97c70d807")
 	)
 	(no_connect
+		(at 701.04 81.28)
+		(uuid "72bf9cb7-8556-4b2e-9798-7863514be6bd")
+	)
+	(no_connect
+		(at 721.36 55.88)
+		(uuid "74d5430b-70e4-4618-b250-5b3fbb07113d")
+	)
+	(no_connect
 		(at 788.67 273.05)
 		(uuid "7779ab9c-0ab4-4154-8895-b2af6c9edada")
 	)
@@ -14580,8 +14798,20 @@
 		(uuid "7e4e1bd2-4d1e-4f6a-81f8-8327bd3b9e92")
 	)
 	(no_connect
+		(at 721.36 81.28)
+		(uuid "832790c5-d098-493b-be29-31b61c0c62b3")
+	)
+	(no_connect
 		(at 781.05 414.02)
 		(uuid "88c64b42-99cd-4b90-8dc5-9382585bc409")
+	)
+	(no_connect
+		(at 701.04 55.88)
+		(uuid "8e4c3d70-c2a2-4ba0-8fb0-92bf1071dbc9")
+	)
+	(no_connect
+		(at 721.36 86.36)
+		(uuid "92d632a0-af3f-46c7-8e3d-55430ee33698")
 	)
 	(no_connect
 		(at 516.89 236.22)
@@ -14590,6 +14820,10 @@
 	(no_connect
 		(at 596.9 241.3)
 		(uuid "965d2680-dd64-47d8-bc65-f11cfb40439a")
+	)
+	(no_connect
+		(at 721.36 60.96)
+		(uuid "9dd0b2b6-6ed8-48f0-8637-65e5a6cbd842")
 	)
 	(no_connect
 		(at 407.67 152.4)
@@ -14618,6 +14852,10 @@
 	(no_connect
 		(at 782.32 447.04)
 		(uuid "dc019c3f-31da-4a17-8941-dc153952e04b")
+	)
+	(no_connect
+		(at 721.36 58.42)
+		(uuid "dc1d4471-7d1e-47c3-9853-8d9c5b737390")
 	)
 	(no_connect
 		(at 595.63 311.15)
@@ -15681,7 +15919,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 316.23) (xy 391.795 316.23)
+			(xy 393.7 316.23) (xy 390.525 316.23)
 		)
 		(stroke
 			(width 0)
@@ -16398,6 +16636,16 @@
 			(type default)
 		)
 		(uuid "2d65c0d4-8757-42c0-9b8f-272b5203da5c")
+	)
+	(wire
+		(pts
+			(xy 501.65 462.28) (xy 506.73 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d72a1e6-ffc3-48a7-8a8c-769c98c6d29d")
 	)
 	(wire
 		(pts
@@ -18721,16 +18969,6 @@
 	)
 	(wire
 		(pts
-			(xy 627.38 84.455) (xy 627.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d72d6c2-9727-4b32-b470-233e474d512a")
-	)
-	(wire
-		(pts
 			(xy 222.25 511.81) (xy 233.68 511.81)
 		)
 		(stroke
@@ -19561,6 +19799,16 @@
 	)
 	(wire
 		(pts
+			(xy 390.525 325.12) (xy 391.795 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fefc133-aff1-4a89-a967-8ddb329ad8c0")
+	)
+	(wire
+		(pts
 			(xy 641.35 533.4) (xy 665.48 533.4)
 		)
 		(stroke
@@ -20018,6 +20266,16 @@
 			(type default)
 		)
 		(uuid "89224b0d-6dec-41a5-a543-0e9603248da9")
+	)
+	(wire
+		(pts
+			(xy 627.38 84.455) (xy 627.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892c4176-49df-4178-9087-5b0774dcfb14")
 	)
 	(wire
 		(pts
@@ -21058,6 +21316,16 @@
 			(type default)
 		)
 		(uuid "a40b7a3a-5c59-4e5e-8aa4-54bf674b6105")
+	)
+	(wire
+		(pts
+			(xy 612.14 48.26) (xy 612.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b2a495-12c1-4b30-8603-9643cffce741")
 	)
 	(wire
 		(pts
@@ -22341,7 +22609,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.795 316.23) (xy 391.795 325.12)
+			(xy 390.525 316.23) (xy 390.525 325.12)
 		)
 		(stroke
 			(width 0)
@@ -22698,16 +22966,6 @@
 			(type default)
 		)
 		(uuid "c9f9a585-f35e-4a0e-bec7-350620fb3c3c")
-	)
-	(wire
-		(pts
-			(xy 612.14 48.26) (xy 612.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1cfad1-b207-47cc-add9-1622630281e4")
 	)
 	(wire
 		(pts
@@ -23571,7 +23829,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 462.28) (xy 506.73 462.28)
+			(xy 490.22 462.28) (xy 494.03 462.28)
 		)
 		(stroke
 			(width 0)
@@ -25019,6 +25277,16 @@
 		)
 		(uuid "1536d8dd-3bf8-4820-97f5-6a1e2802e765")
 	)
+	(label "GND_JACK"
+		(at 627.38 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "155021cc-14af-4bd9-af37-eaa2d6403637")
+	)
 	(label "~{SW_USR1_MICRO}"
 		(at 645.16 538.48 0)
 		(effects
@@ -25589,7 +25857,7 @@
 		)
 		(uuid "45f78175-cb46-437a-8d32-c830bd21cf2d")
 	)
-	(label "GNDA_JACK"
+	(label "GND_JACK"
 		(at 778.51 342.9 0)
 		(effects
 			(font
@@ -27038,6 +27306,16 @@
 			(justify left bottom)
 		)
 		(uuid "c7f2d9b8-6dad-4871-9871-330c6693e1ca")
+	)
+	(label "GND_JACK"
+		(at 612.14 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c846969e-a06e-43e2-9fda-94809aaa32c8")
 	)
 	(label "GND_JACK"
 		(at 541.02 57.15 0)
@@ -28565,7 +28843,7 @@
 				)
 			)
 		)
-		(property "Value" "AUDIO_IN_1"
+		(property "Value" "Stereo Jack"
 			(at 92.075 265.8802 0)
 			(effects
 				(font
@@ -29426,7 +29704,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_3"
+		(property "Value" "Stereo Jack"
 			(at 796.925 345.8902 0)
 			(effects
 				(font
@@ -29633,7 +29911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 627.38 161.29 0)
 			(effects
 				(font
@@ -30279,7 +30557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 474.6752 88.9 0)
 			(effects
 				(font
@@ -31601,7 +31879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 523.621 467.3021 0)
 			(effects
 				(font
@@ -31663,15 +31941,15 @@
 		(fields_autoplaced yes)
 		(uuid "1cb46c4a-7271-4bfd-b93c-968abbcf00b2")
 		(property "Reference" "R1"
-			(at 668.02 205.6595 90)
+			(at 668.02 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 668.02 208.0838 90)
+		(property "Value" "1k"
+			(at 668.02 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32145,7 +32423,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_4"
+		(property "Value" "Stereo Jack"
 			(at 798.195 378.9102 0)
 			(effects
 				(font
@@ -32565,7 +32843,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_4"
+		(property "Value" "Stereo Jack"
 			(at 789.305 452.5702 0)
 			(effects
 				(font
@@ -32836,7 +33114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 562.61 261.62 0)
 			(effects
 				(font
@@ -34152,7 +34430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 507.6952 469.9 0)
 			(effects
 				(font
@@ -34359,7 +34637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x3.6mm_P0.4mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 309.88 289.56 0)
 			(effects
 				(font
@@ -35151,7 +35429,7 @@
 				)
 			)
 		)
-		(property "Value" "AUDIO_IN_2"
+		(property "Value" "Stereo Jack"
 			(at 93.345 302.7102 0)
 			(effects
 				(font
@@ -36834,7 +37112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 500.761 86.3021 0)
 			(effects
 				(font
@@ -36903,7 +37181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 288.29 238.76 0)
 			(effects
 				(font
@@ -37757,15 +38035,15 @@
 		(fields_autoplaced yes)
 		(uuid "454965c4-8598-47b7-83c6-ef417c62ad69")
 		(property "Reference" "R2"
-			(at 668.02 223.4395 90)
+			(at 668.02 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 668.02 225.8638 90)
+		(property "Value" "1k"
+			(at 668.02 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37900,7 +38178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C7470101"
+		(property "Value" "C22438194"
 			(at 404.622 143.51 0)
 			(effects
 				(font
@@ -39604,7 +39882,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN_4"
+		(property "Value" "Stereo Jack"
 			(at 97.155 474.1602 0)
 			(effects
 				(font
@@ -39745,7 +40023,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN3"
+		(property "Value" "Stereo Jack"
 			(at 95.885 432.2502 0)
 			(effects
 				(font
@@ -40710,6 +40988,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 497.84 462.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5caa62f8-fb6b-4723-b90a-ef685e946a48")
+		(property "Reference" "R4"
+			(at 497.84 457.0222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 497.84 459.3336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Clacktronics:R_0402_1005Metric"
+			(at 497.84 460.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 497.84 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 497.84 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30183c99-b2e9-4476-9017-60132c7b9c2b")
+		)
+		(pin "2"
+			(uuid "94cc2781-ff4b-455b-9231-1c5f16575d91")
+		)
+		(instances
+			(project "EuroClack - Green_Screen_2350"
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 645.16 234.95 0)
 		(unit 1)
@@ -40930,7 +41274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 658.241 248.8621 0)
 			(effects
 				(font
@@ -41877,7 +42221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 345.821 295.8521 0)
 			(effects
 				(font
@@ -41923,70 +42267,6 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 612.14 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67480b69-dc16-4973-ba68-0d2f26125adb")
-		(property "Reference" "#PWR0127"
-			(at 612.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 612.267 56.4642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 612.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f1929bf-8a57-4aea-94e6-8b470adb2f7d")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -42061,70 +42341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 627.38 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67a48d8b-17e9-45c1-abb9-6d83a76fca2c")
-		(property "Reference" "#PWR0159"
-			(at 627.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 627.507 90.7542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 627.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96696731-5d8b-470d-a1f8-2660c43aed66")
-		)
-		(instances
-			(project "EuroClack - Green_Screen_2350"
-				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
-					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 548.64 466.09 0)
 		(unit 1)
@@ -42142,7 +42358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 547.37 458.47 0)
 			(effects
 				(font
@@ -44413,7 +44629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 518.16 406.4 0)
 			(effects
 				(font
@@ -45034,7 +45250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C7470089"
+		(property "Value" "C22438194"
 			(at 404.622 144.78 0)
 			(effects
 				(font
@@ -46050,7 +46266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C7471773"
+		(property "Value" "C22438074"
 			(at 429.26 115.57 0)
 			(effects
 				(font
@@ -46294,7 +46510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 206.121 560.0121 0)
 			(effects
 				(font
@@ -46439,7 +46655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 345.821 314.9021 0)
 			(effects
 				(font
@@ -47753,7 +47969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 625.221 283.1521 0)
 			(effects
 				(font
@@ -48984,7 +49200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 345.821 276.8021 0)
 			(effects
 				(font
@@ -50701,7 +50917,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_3"
+		(property "Value" "Stereo Jack"
 			(at 788.035 419.5502 0)
 			(effects
 				(font
@@ -51035,15 +51251,15 @@
 		(fields_autoplaced yes)
 		(uuid "b6a2a4a9-12df-4aab-a2d6-dd4aa7f30ddf")
 		(property "Reference" "R15"
-			(at 265.43 260.2695 90)
+			(at 265.43 259.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 265.43 262.6938 90)
+		(property "Value" "1k"
+			(at 265.43 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51985,7 +52201,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8uH 5A 20mOhm"
+		(property "Value" "10uH 4A"
 			(at 446.532 72.644 90)
 			(effects
 				(font
@@ -51993,7 +52209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "green_screen:IND-SMD_L5.4-W5.2"
+		(property "Footprint" "green_screen:FXL0630-100-M"
 			(at 445.77 81.28 0)
 			(effects
 				(font
@@ -52193,7 +52409,7 @@
 				)
 			)
 		)
-		(property "Value" "AUDIO_OUT_1"
+		(property "Value" "Stereo Jack"
 			(at 761.365 218.8902 0)
 			(effects
 				(font
@@ -52666,7 +52882,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN_4"
+		(property "Value" "Stereo Jack"
 			(at 97.155 541.4702 0)
 			(effects
 				(font
@@ -53392,7 +53608,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN3"
+		(property "Value" "Stereo Jack"
 			(at 97.155 510.9902 0)
 			(effects
 				(font
@@ -53528,7 +53744,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_2"
+		(property "Value" "Stereo Jack"
 			(at 796.925 312.8702 0)
 			(effects
 				(font
@@ -54004,7 +54220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 607.441 206.9521 0)
 			(effects
 				(font
@@ -54066,15 +54282,15 @@
 		(fields_autoplaced yes)
 		(uuid "d9c25dee-9996-42d5-95f4-79d7643d3673")
 		(property "Reference" "R16"
-			(at 265.43 275.5095 90)
+			(at 265.43 274.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 265.43 277.9338 90)
+		(property "Value" "1k"
+			(at 265.43 276.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54358,7 +54574,7 @@
 				)
 			)
 		)
-		(property "Value" "AUDIO_OUT_2"
+		(property "Value" "Stereo Jack"
 			(at 761.365 234.1302 0)
 			(effects
 				(font
@@ -55224,7 +55440,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2509ee7-796a-476e-a94c-2836fd76b8a0")
 		(property "Reference" "C7"
-			(at 274.701 283.2678 0)
+			(at 275.59 283.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55232,8 +55448,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
-			(at 274.701 285.6921 0)
+		(property "Value" "2n2"
+			(at 275.59 285.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55560,6 +55776,74 @@
 			(project "EuroClack - Green_Screen_2350"
 				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 520.7 462.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5095d82-925f-4784-9a91-5e6ec17c59dc")
+		(property "Reference" "#FLG03"
+			(at 520.7 460.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 520.6999 458.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 520.7 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 520.7 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 520.7 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a822dc-a9bb-4f22-8275-eed9cbb1e898")
+		)
+		(instances
+			(project "EuroClack - Green_Screen_2350"
+				(path "/6f5038df-e76f-49bd-844a-6b4074e990d8"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -56020,7 +56304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 497.84 116.84 0)
 			(effects
 				(font
@@ -56287,7 +56571,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed063186-36f1-4801-a2be-d13fb6c2c6e5")
 		(property "Reference" "C8"
-			(at 274.701 268.0278 0)
+			(at 275.59 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56295,8 +56579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
-			(at 274.701 270.4521 0)
+		(property "Value" "2n2"
+			(at 275.59 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56432,7 +56716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 262.001 474.9221 0)
 			(effects
 				(font
@@ -56769,7 +57053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 533.781 467.3021 0)
 			(effects
 				(font
@@ -57036,7 +57320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C2881890"
+		(property "Value" "C22438074"
 			(at 429.26 144.78 0)
 			(effects
 				(font
@@ -57258,7 +57542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 383.54 153.67 0)
 			(effects
 				(font
@@ -57395,7 +57679,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH 5A 20mOhm"
+		(property "Value" "10uH 4A"
 			(at 479.552 453.644 90)
 			(effects
 				(font
@@ -57403,7 +57687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "green_screen:IND-SMD_L5.4-W5.2"
+		(property "Footprint" "green_screen:FXL0630-100-M"
 			(at 478.79 462.28 0)
 			(effects
 				(font
@@ -57742,7 +58026,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN_1"
+		(property "Value" "Stereo Jack"
 			(at 93.345 340.8102 0)
 			(effects
 				(font
@@ -58080,7 +58364,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_OUT_1"
+		(property "Value" "Stereo Jack"
 			(at 795.655 278.5802 0)
 			(effects
 				(font
@@ -58646,7 +58930,7 @@
 				)
 			)
 		)
-		(property "Value" "CV_GATE_IN_2"
+		(property "Value" "Stereo Jack"
 			(at 92.075 382.7202 0)
 			(effects
 				(font

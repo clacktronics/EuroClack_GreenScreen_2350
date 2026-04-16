@@ -4,4 +4,5 @@
   (lib (name "TS34056055-0440")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TS34056055-0440.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
   (lib (name "EasyEDA_Lib")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+  (lib (name "green_screen")(type "KiCad")(uri "${KIPRJMOD}/green_screen.kicad_sym")(options "")(descr ""))
 )
