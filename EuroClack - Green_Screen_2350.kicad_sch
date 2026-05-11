@@ -12741,9 +12741,9 @@
 		)
 		(uuid "3743f660-5c7d-4c24-8cda-c02fe57632f4")
 	)
-	(text "Errors List\n\nOpamps are not suitable for 12V\nC38, C87 wrong footprint\nC8, C2, C1, C7 wrong footprint"
+	(text "Errors List\n\nOpamps are not suitable for 12V\nC38, C87 wrong footprint\nC8, C2, C1, C7 wrong footprint\nSDA/SCL are the wrong way around on MCP4728\nPullup needed on PCM5102 xmute\nremove jumper on 5v\nCV inputs to micro have no protection\nlow pass on CV ADC inputs for anti alizing\nTVS diodes on outputs\n\n"
 		(exclude_from_sim no)
-		(at -68.834 353.06 0)
+		(at 781.812 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13128,7 +13128,7 @@
 		)
 		(uuid "db22bbe4-f830-4cdd-88b1-064f497ca3ba")
 	)
-	(text "FUTURE DESIGN CHANGES\n=====================\n\nPower down memory save circuit\nReset and program as a single button?"
+	(text "FUTURE DESIGN CHANGES\n=====================\n\nPower down memory save circuit\nMove TFT SPI to a ribbon connector on brain PCB so it is as short as possible\nPut (both?) I2C to the 40 pin connector\nMore test points\nmove USB to more ergonomic place, perhaps might need more HP\nBezel design for display\ndelete serial, move qwiic down\nput vref on adc vdd input of 2350\n"
 		(exclude_from_sim no)
 		(at 792.48 93.472 0)
 		(effects
@@ -13210,7 +13210,7 @@
 	)
 	(text "2 audio inputs - ac coupled\n4 CV / gate hybrid inputs\n2 audio / CV outputs\n4 CV outputs\n2 encoders with buttons\n2 user buttons\nSD card reader\nUSB host port\nUSB input port for programming and PC connection\nFull colour 240x280 display over SPI/HTSC\n"
 		(exclude_from_sim no)
-		(at 165.608 102.362 0)
+		(at 193.548 102.362 0)
 		(effects
 			(font
 				(size 3 3)
@@ -13240,6 +13240,16 @@
 			)
 		)
 		(uuid "fc126439-6ab2-4c4c-9e39-4a72bae2489b")
+	)
+	(text "Test List\n=========\nPCM1808 input\nranges of opamps\nspeed of comparators\nSD card in SDIO and SPI mode\nNoise on analog inputs and outputs\nUSB host"
+		(exclude_from_sim no)
+		(at 780.034 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd038fe9-f957-47ce-bfda-5de986a47333")
 	)
 	(junction
 		(at 552.45 462.28)
@@ -18339,7 +18349,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 294.64) (xy 172.72 294.64)
+			(xy 163.83 294.64) (xy 172.72 294.64)
 		)
 		(stroke
 			(width 0)
@@ -18979,7 +18989,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 332.74) (xy 165.1 332.74)
+			(xy 142.24 332.74) (xy 156.21 332.74)
 		)
 		(stroke
 			(width 0)
@@ -20259,7 +20269,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 294.64) (xy 166.37 294.64)
+			(xy 140.97 294.64) (xy 158.75 294.64)
 		)
 		(stroke
 			(width 0)
@@ -22379,7 +22389,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 332.74) (xy 172.72 332.74)
+			(xy 161.29 332.74) (xy 172.72 332.74)
 		)
 		(stroke
 			(width 0)
@@ -25827,6 +25837,16 @@
 		)
 		(uuid "42a2c97e-5b0a-4485-bb83-c2098bc55b86")
 	)
+	(label "CV_OUT_4"
+		(at 701.04 363.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42e39981-768d-46dd-8ff0-09f3730404f7")
+	)
 	(label "USB_HOST_DM_MICRO"
 		(at 524.51 231.14 180)
 		(effects
@@ -25876,6 +25896,16 @@
 			(justify right bottom)
 		)
 		(uuid "49460949-e1a3-4d7a-baf6-82ff5d04045a")
+	)
+	(label "CV_OUT_2"
+		(at 711.2 297.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49853999-52e1-4471-8825-a77ddcae2628")
 	)
 	(label "~{SW_MENU_BOOT_MICRO}"
 		(at 641.35 533.4 0)
@@ -26246,6 +26276,16 @@
 			(justify left bottom)
 		)
 		(uuid "6898ed3f-1307-41bb-af9c-9442e19ce73c")
+	)
+	(label "CV_OUT_1"
+		(at 702.31 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68ce66ca-85da-49d7-bfd8-366786b423ab")
 	)
 	(label "DISPLAY_SDA_JACK"
 		(at 502.92 125.73 0)
@@ -27047,6 +27087,16 @@
 		)
 		(uuid "ac9e9be2-225b-454b-84c9-eb2210bfc859")
 	)
+	(label "CV_IN_1"
+		(at 163.83 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad30b03d-0e98-4fa7-b2f5-02adb3e06cea")
+	)
 	(label "HSTX14_SCK"
 		(at 516.89 264.16 180)
 		(effects
@@ -27186,6 +27236,16 @@
 			(justify left bottom)
 		)
 		(uuid "bdf84bfc-d41b-4f05-85b4-40f90d67c463")
+	)
+	(label "CV_OUT_3"
+		(at 702.31 330.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c025c584-c0d3-48a8-b3e9-f390fe604d0b")
 	)
 	(label "HSTX13_CS"
 		(at 645.16 518.16 0)
@@ -43379,7 +43439,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 167.64 332.74 90)
+		(at 158.75 332.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43388,7 +43448,7 @@
 		(fields_autoplaced yes)
 		(uuid "71075368-e86f-4ac9-a973-ab9cdc7f09a9")
 		(property "Reference" "FB3"
-			(at 167.6019 326.8937 90)
+			(at 158.7119 326.8937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43396,7 +43456,7 @@
 			)
 		)
 		(property "Value" "F"
-			(at 167.6019 329.318 90)
+			(at 158.7119 329.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43404,7 +43464,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 167.64 334.518 90)
+			(at 158.75 334.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43413,7 +43473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 332.74 0)
+			(at 158.75 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43422,7 +43482,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 167.64 332.74 0)
+			(at 158.75 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57596,7 +57656,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 168.91 294.64 90)
+		(at 161.29 294.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57605,7 +57665,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5348978-c1c7-40a1-95a2-64b9267c59c7")
 		(property "Reference" "FB2"
-			(at 168.8719 288.7937 90)
+			(at 161.2519 288.7937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57613,7 +57673,7 @@
 			)
 		)
 		(property "Value" "F"
-			(at 168.8719 291.218 90)
+			(at 161.2519 291.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57621,7 +57681,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 168.91 296.418 90)
+			(at 161.29 296.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57630,7 +57690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 294.64 0)
+			(at 161.29 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57639,7 +57699,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 168.91 294.64 0)
+			(at 161.29 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
