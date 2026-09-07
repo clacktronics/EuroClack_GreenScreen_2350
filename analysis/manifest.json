@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "project": "EuroClack - Green_Screen_2350.kicad_pro",
+  "current": "2026-09-07_1339",
+  "runs": {
+    "2026-09-07_1339": {
+      "source_hashes": {
+        "EuroClack - Green_Screen_2350.kicad_sch": "sha256:207e93d2170bbf8517a3b3d2b6eb497c50801d02a85efe4f7b1b672dbf580c4f",
+        "EuroClack - Green_Screen_2350.kicad_pcb": "sha256:3bd0030d41aad7ff10617eb81d836196b312d3ff89e2c9889c35a689042b9112",
+        "schematic.json": "sha256:39d9c2e82438b6b532845bf1f4fa8e6a3d7dae116ef5374fce0ef22f9cb7115a",
+        "pcb.json": "sha256:821c120e1c22424d5684c2f1807d8d85e776e1573590cd82fe795f8bba2e7003"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py EuroClack - Green_Screen_2350.kicad_sch"
+      },
+      "generated": "2026-09-07T13:41:11+01:00",
+      "pinned": false
+    }
+  }
+}

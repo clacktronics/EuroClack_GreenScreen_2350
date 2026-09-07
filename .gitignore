@@ -34,3 +34,37 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Downloaded reference material and imported assets: keep local until
+# redistribution permissions have been checked. This is not a license audit.
+/datasheets/
+*.elibz
+*.step
+*.stp
+*.wrl
+
+# KiCad session state, locks, autosaves and backup directories
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.lck
+*-backups/
+_autosave-*/
+
+# Local editor history and library-loader configuration
+/.history
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+
+# Regenerable mechanical exports and old schematic export
+/*.emn
+/*.emp
+/EuroClack - Green_Screen_2350.pdf
+/untitled.stl
+/untitled.mtl
+
+# analysis/.gitignore excludes generated review output and datasheet extracts.
+# Keep DESIGN_REVIEW.md, PERIPHERALS.md and libraries/ source files versioned.

@@ -792,7 +792,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "green_screen:FPC-SMD_F1004-H-08-20G-R"
+	(footprint "EuroClack:FPC-SMD_F1004-H-08-20G-R"
 		(layer "F.Cu")
 		(uuid "061b160a-1f9a-45a1-9f4d-110abee2d240")
 		(at 106.3 59.56002)
@@ -1098,7 +1098,7 @@
 			(uuid "61c393c6-3dae-4df4-a98c-7a97bb88d255")
 		)
 		(embedded_fonts no)
-		(model "/home/ben/JLC2KiCad_lib/footprint/packages3d/FPC-SMD_F1004-H-08-20G-R.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FPC-SMD_F1004-H-08-20G-R.wrl"
 			(offset
 				(xyz -0.0000507999992371 1.486001578 0)
 			)
@@ -1110,7 +1110,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:SW-TH_EC11XXXXXXXX"
+	(footprint "EuroClack:SW-TH_EC11XXXXXXXX"
 		(layer "F.Cu")
 		(uuid "063eb983-a8e6-4746-bca6-5c8ebb8b6b6c")
 		(at 91.150127 98)
@@ -1467,7 +1467,7 @@
 			(uuid "415ae3ae-b89d-42f2-9029-c50af401dff1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/SW-TH_EC11XXXXXXXX.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_EC11XXXXXXXX.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1795,7 +1795,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "08e1c749-9265-4169-9de6-58d8a1819206")
 		(at 59.95 86.48 -90)
@@ -2000,7 +2000,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "08f5778e-2535-46b2-9bbc-4cbce657aade")
 		(at 72.15 94.7 180)
@@ -2205,7 +2205,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:L_pol_2016"
+	(footprint "EuroClack:L_pol_2016"
 		(layer "F.Cu")
 		(uuid "09e8c817-a4fa-46f5-984c-943fbd20eb38")
 		(at 52.933333 76.6 180)
@@ -2418,7 +2418,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0a296a5d-043b-4fbe-a28f-2ee1fa39d6fe")
 		(at 48.02 86.45)
@@ -2623,7 +2623,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0a2e69d9-0e88-47d2-9539-722ef28fe54c")
 		(at 66.37 62.31 180)
@@ -2828,7 +2828,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0b336183-a64e-4fb6-a03a-7461cfcfde46")
 		(at 72.6 66.95 180)
@@ -3033,7 +3033,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0d4e86e6-dc62-4998-8646-46096e7b3615")
 		(at 59.833333 75.85 -90)
@@ -3603,7 +3603,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1090f6a4-d6a1-4a41-851a-250e4a5e3ba3")
 		(at 39.8875 92.3)
@@ -3808,7 +3808,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:HDR-TH_8P-P1.27-H-M_1271WR-8P"
+	(footprint "EuroClack:HDR-TH_8P-P1.27-H-M_1271WR-8P"
 		(layer "F.Cu")
 		(uuid "10d23dff-0c7f-46d5-a60c-cb139d82759b")
 		(at 35.9 64.796565 -90)
@@ -4257,7 +4257,7 @@
 			(uuid "a8f80c5f-51c9-47d5-b402-e210bfe2427e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/HDR-TH_8P-P1.27-H-M_1271WR-8P.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/HDR-TH_8P-P1.27-H-M_1271WR-8P.wrl"
 			(offset
 				(xyz 0 -1 1)
 			)
@@ -4269,7 +4269,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "12281f40-b294-4440-9f41-21794ee62be9")
 		(at 39.8 89.4 180)
@@ -4474,7 +4474,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "122b5e2a-2be7-4f4d-8252-3fcf24da16dc")
 		(at 73.1 88.5 180)
@@ -4679,7 +4679,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "131846a3-68a3-48bf-8c98-9707a557d05d")
 		(at 61.5 86.48 -90)
@@ -4884,7 +4884,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "137d1db3-4725-4e93-b650-509fa3cec457")
 		(at 63.21 80.06 180)
@@ -5375,7 +5375,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
+	(footprint "EuroClack:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
 		(layer "F.Cu")
 		(uuid "14467115-5a94-452b-b679-cc72d520a34e")
 		(at 51 110.624968)
@@ -5982,7 +5982,7 @@
 			(uuid "b704d529-befe-4a7c-ada6-1f6237848be8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20.wrl"
 			(offset
 				(xyz 0 1.6 0)
 			)
@@ -5994,7 +5994,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "15b32653-63e5-4a86-9118-1b5a0836175a")
 		(at 84.05 93.37 90)
@@ -6199,7 +6199,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "15d186f5-6240-4d29-ac4f-d7d0076ccb16")
 		(at 123.9 65.4625 -90)
@@ -6528,7 +6528,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "16974a1f-0af7-4862-8757-5da19adba6bb")
 		(at 125.8 132)
@@ -6729,7 +6729,7 @@
 			(uuid "b660f5aa-7f11-4e60-a214-ea7f6e3cab7b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -6741,7 +6741,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "19b2f8e0-7204-4b05-9956-0a51dc032c3a")
 		(at 38.52 103.1)
@@ -6946,7 +6946,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1eb146a8-7231-45a6-96fd-52e9f712f25a")
 		(at 70.25 101.44)
@@ -7589,7 +7589,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "20117005-0d1a-4136-9b61-602698fc5dff")
 		(at 38.57 86.25)
@@ -7794,7 +7794,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2238672b-8ec3-46d0-a488-5e8c60450b07")
 		(at 39.87 63.86 -90)
@@ -7986,7 +7986,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "22461f4d-a5d8-4b4d-998a-2d5a43e58b45")
 		(at 39.85 56.4125 90)
@@ -8218,7 +8218,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "244e18d4-90b4-4726-894e-1721b16e07ed")
 		(at 63.1 82.4 -90)
@@ -8450,7 +8450,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "249d42c8-e01d-4b19-bf0d-803810c18fd6")
 		(at 47.7 80.35)
@@ -8655,7 +8655,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "24d7fad0-ca7f-4991-9f72-aca68e884bac")
 		(at 47.7 83.65 180)
@@ -8860,7 +8860,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "25b10b7f-8dc5-4d22-a214-5bec625079b8")
 		(at 61.4 95.6 180)
@@ -9065,7 +9065,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "26cee1e2-5776-49b0-a8be-dd345e1fc3ca")
 		(at 38.57 85.15)
@@ -9484,7 +9484,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "29b54ce7-39cf-4642-9447-c8beddb869b3")
 		(at 73.15 92.77 180)
@@ -9689,7 +9689,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2a184c4d-8ca2-4bcd-a595-a24621ae5970")
 		(at 70.23 100.39)
@@ -9894,7 +9894,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2a2dd76e-ccfc-46a0-9a97-5d9641aea8cf")
 		(at 56.88 84.18 180)
@@ -10099,7 +10099,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2c1978f3-a31a-47ca-8116-842b234001aa")
 		(at 48.1 96.7 90)
@@ -10304,7 +10304,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "2c2e4147-44ba-4791-8a1c-7d45f63e6076")
 		(at 99.8 144)
@@ -10505,7 +10505,7 @@
 			(uuid "c35b27ab-27d3-4128-a95b-f41c1cb2ebf5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -10517,7 +10517,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2d8d405a-ad12-4d4c-aadc-139c832b3009")
 		(at 63.15 89.2 -90)
@@ -10749,7 +10749,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2f6129b7-f976-468d-8e6a-4517a9fec946")
 		(at 66.37 63.47 180)
@@ -10954,7 +10954,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2fadd8e2-c056-40bb-a8d0-433e2b65bd25")
 		(at 46.3 101.15 180)
@@ -11159,7 +11159,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "32b639b2-49f7-498a-8a06-fe0119bf4eb2")
 		(at 48.02 85.35)
@@ -11364,7 +11364,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "330967f1-ec53-4c9e-8e74-180e777b3db6")
 		(at 112.8 132)
@@ -11565,7 +11565,7 @@
 			(uuid "ac486b23-1a69-4a66-8280-148088ecfe16")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -11577,7 +11577,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34"
+	(footprint "EuroClack:CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34"
 		(layer "F.Cu")
 		(uuid "3928b260-8326-489c-b3fd-090b1b9f73db")
 		(at 37.5 122.549873 -90)
@@ -11808,7 +11808,7 @@
 			(uuid "277bbd85-6c40-4401-8da1-cf1487038d62")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11820,7 +11820,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3b921ce5-b988-4da4-a4e0-9b06a2720189")
 		(at 58.133333 75.25 -90)
@@ -12025,7 +12025,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "3c2183eb-d0a1-4fc1-a7b6-44e45ba641ad")
 		(at 112.8 144)
@@ -12226,7 +12226,7 @@
 			(uuid "83fbd88c-2b45-4f6d-bf9e-4b76432e34e5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -12238,7 +12238,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3c8321a7-9410-4983-bd28-2cbc5ab72159")
 		(at 52.25 102.2)
@@ -12443,7 +12443,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3e8d2be1-6e37-49a5-bb57-9c8fec70e91e")
 		(at 106.48 140.45 180)
@@ -13305,7 +13305,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4153ef34-7e16-405a-8ad0-b4ac1503167a")
 		(at 73.2 84.4 -90)
@@ -13537,7 +13537,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "417db138-275b-420c-b0c9-d2363580c89f")
 		(at 56.183333 74.7 90)
@@ -13956,7 +13956,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "42fe8370-2d93-4812-bf19-4f94d7d1cb4a")
 		(at 47.7 82.55 180)
@@ -14161,7 +14161,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "440456a2-f185-41aa-86c1-270eba378337")
 		(at 102.88 102.05)
@@ -14366,7 +14366,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "45b1c921-d08a-42e5-ab59-ae91f0434970")
 		(at 49.9 105.65 180)
@@ -14669,7 +14669,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "47cc3f6a-87e4-44d0-8d05-8a958f30a303")
 		(at 49.9 102.1)
@@ -15317,7 +15317,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4b4a6154-adc0-46c3-a5c4-a48491dfae39")
 		(at 46.3 61.15 90)
@@ -16263,7 +16263,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:USB-A-TH_C42536"
+	(footprint "EuroClack:USB-A-TH_C42536"
 		(layer "F.Cu")
 		(uuid "4c7c7d7c-4039-49c4-8dd8-4c32a17cb741")
 		(at 106.3 111.349784 180)
@@ -16481,7 +16481,7 @@
 			(uuid "35c8bc5f-8410-4c3f-b56b-6af96e3d95f8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/USB-A-TH_C42536.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-A-TH_C42536.wrl"
 			(offset
 				(xyz 0 -0.7 10)
 			)
@@ -16493,7 +16493,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4d5edd9c-750b-4d74-b9dd-8481679e7883")
 		(at 54.15 61.3 180)
@@ -16698,7 +16698,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4ea70319-fea0-4d35-8a0d-80467d82eb3c")
 		(at 60.15 83.8 180)
@@ -16930,7 +16930,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4f0f2d3d-6c13-45fc-a4e3-186d714a2534")
 		(at 48.383333 63.55 180)
@@ -17349,7 +17349,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:USB-C-TH_TYPE-C-USB-14P"
+	(footprint "EuroClack:USB-C-TH_TYPE-C-USB-14P"
 		(layer "F.Cu")
 		(uuid "50c9b218-aba1-46b0-9f40-4ed48a7459b2")
 		(at 80.35 91.55 90)
@@ -17719,7 +17719,7 @@
 			(uuid "69d9ef8e-9be5-4a4a-b45a-acf242a849cf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/USB-C-TH_TYPE-C-USB-14P.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-TH_TYPE-C-USB-14P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17731,7 +17731,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:SW-TH_EC11XXXXXXXX"
+	(footprint "EuroClack:SW-TH_EC11XXXXXXXX"
 		(layer "F.Cu")
 		(uuid "518e55bc-ae08-4d01-be1e-664eaf6db106")
 		(at 121.5 98)
@@ -18088,7 +18088,7 @@
 			(uuid "5e3af117-b55c-408a-bb54-170afd87d466")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/SW-TH_EC11XXXXXXXX.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_EC11XXXXXXXX.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18100,7 +18100,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "53fd6a25-a824-4923-bf36-f30b6226d917")
 		(at 80.5 129.82 90)
@@ -18305,7 +18305,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "544763bb-9e62-4f11-8830-501f752dda1e")
 		(at 48.383333 67.3 180)
@@ -18510,7 +18510,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5693d2af-c494-400a-810e-b144e9864b70")
 		(at 102.9625 54.9 180)
@@ -18742,7 +18742,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "58fc5d6e-d8f4-47f7-b91f-9370624c716b")
 		(at 125.8 156)
@@ -18943,7 +18943,7 @@
 			(uuid "16e41147-8ab7-471c-a44c-c831c1d700ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -18955,7 +18955,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34"
+	(footprint "EuroClack:CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34"
 		(layer "F.Cu")
 		(uuid "59472cfa-d06d-421a-808d-b2dd5eb705c7")
 		(at 47.1 122.549873 -90)
@@ -19186,7 +19186,7 @@
 			(uuid "977d944c-7a3a-495d-9e2f-833e429d5574")
 		)
 		(embedded_fonts no)
-		(model "/home/ben/JLC2KiCad_lib/footprint/packages3d/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
 			(offset
 				(xyz 0 0.004952999926 0.0000507999992371)
 			)
@@ -19197,7 +19197,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/green_screen.pretty/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/CONN-TH_8P-P1.27_DEALON_DW127R-11-08-34.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19209,7 +19209,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5a59efbb-0433-4c71-b6e4-86f2b798b1a4")
 		(at 38.57 87.3)
@@ -19414,7 +19414,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5d067902-e739-4e43-8bb6-e8f1ea5be512")
 		(at 61.33 96.69)
@@ -19935,7 +19935,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5d17a6df-39f9-4a94-ab9b-d2a3e3dd10c7")
 		(at 38.52 104.2)
@@ -20140,7 +20140,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "61b4b15b-19c9-4793-aff6-045158d50c65")
 		(at 60.4 61.49)
@@ -20345,7 +20345,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "61f35589-2d46-4c28-b32a-9bb26d74677b")
 		(at 119.72 59.9)
@@ -20550,7 +20550,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "630ea41b-96bd-4440-b585-74cb64d1443e")
 		(at 54.3 102.15)
@@ -20755,7 +20755,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "6440e2b2-6a3f-49cf-af36-d89f2940a1aa")
 		(at 86.8 156)
@@ -20956,7 +20956,7 @@
 			(uuid "87b97d5a-2780-4554-a97e-734fe23eb273")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -20968,7 +20968,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "644d19d6-a3fb-4ba1-8bea-99151334f0ca")
 		(at 50.533333 76.95 90)
@@ -21173,7 +21173,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "6474b7b8-e97d-4bab-b3ee-e3433682941b")
 		(at 99.8 156)
@@ -21374,7 +21374,7 @@
 			(uuid "3a7c5107-2328-40ee-84e2-c3cd6e106e07")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -22372,7 +22372,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "669ba1f6-f19c-424c-8bbb-279784a9cd92")
 		(at 38.52 100.9 180)
@@ -22577,7 +22577,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA_Lib:SW-TH_PS-8556DVA-6PN"
+	(footprint "EuroClack:SW-TH_PS-8556DVA-6PN"
 		(layer "F.Cu")
 		(uuid "6714d515-34af-4da0-b0df-d7a14e920491")
 		(at 82.215699 59.73525)
@@ -23062,7 +23062,7 @@
 			(uuid "e7034ede-d6cd-4148-8b19-2336ba749f5a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SW-TH_PS-8556DVA-6PN.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_PS-8556DVA-6PN.step"
 			(offset
 				(xyz 0 0 -3.4)
 			)
@@ -23074,7 +23074,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "676fcd16-cf79-4cf0-9636-6f13b2b31d4d")
 		(at 49.85 99.5 180)
@@ -23279,7 +23279,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "67c2c671-8439-415d-ab8b-e2aa0426d64f")
 		(at 47.7 81.45)
@@ -23484,7 +23484,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "67c88ea3-495f-4192-9329-654a1ada564c")
 		(at 35.93 78.22)
@@ -23689,7 +23689,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "696007e7-48cc-4932-a7c5-b3a9ed9d2fdc")
 		(at 72.27 99.09 -90)
@@ -23921,7 +23921,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "6bc0d7c9-2c9e-4b22-ad1b-7982c73672cc")
 		(at 125.8 120)
@@ -24122,7 +24122,7 @@
 			(uuid "652ac0da-4a30-41d1-9336-46420068dd06")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -24134,7 +24134,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6d5e528c-c493-4c55-b021-f23f50ec887a")
 		(at 43.48 73.25 -90)
@@ -24339,7 +24339,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6eaecf0a-d56c-4149-ba0a-44548dda5a61")
 		(at 38.55 98)
@@ -24544,7 +24544,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6ed30a1c-3d97-48b2-8e2f-c53d37a4c05e")
 		(at 63.4 71.65 180)
@@ -24749,7 +24749,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6f17787a-cb0e-4911-bf22-0cdfea0ab85c")
 		(at 45.42 84.65 180)
@@ -24954,7 +24954,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6f5b6fa1-be34-4271-96cf-8e323bccc44a")
 		(at 57.55 89.2 -90)
@@ -25186,7 +25186,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "706cbc9c-cc07-44b2-9a76-f4fc7b31b56e")
 		(at 56.06 100.79)
@@ -25391,7 +25391,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7095a330-2f33-44c0-b338-df2cdba5ca66")
 		(at 79.95 152.53 90)
@@ -25596,7 +25596,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "71444fbe-4f0a-4d81-9be0-354632f50c31")
 		(at 37.8875 92.3 180)
@@ -25801,7 +25801,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "72849fbd-695e-4cbb-b744-99e56d679577")
 		(at 106.88 107)
@@ -25994,7 +25994,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "72a78a39-9f1c-463e-966f-77a30eec02c3")
 		(at 48.483333 71.75 180)
@@ -26199,7 +26199,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "72c53ea7-ff16-4eb1-b731-0dc77cf5bfe7")
 		(at 48.15 103.6 90)
@@ -26404,7 +26404,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "733edbc3-e230-46dc-8336-3819ec2e43ea")
 		(at 38.81 95.75 180)
@@ -26609,7 +26609,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "73bd5f63-be1b-495a-ad19-17269963cac0")
 		(at 50.533333 74.8 90)
@@ -26814,7 +26814,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "752e7031-90d6-4c9c-83d4-572a500645f6")
 		(at 106.5 116.62 90)
@@ -27019,7 +27019,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "758367b9-b1e4-48c0-af41-332a0c32892c")
 		(at 48.07 70.11 180)
@@ -27944,7 +27944,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7681978f-1242-4b3a-82d1-8a39e4a7779d")
 		(at 70.24 102.46 180)
@@ -28363,7 +28363,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "78495865-781d-416d-9586-7aae160a5a09")
 		(at 40.15 102.2 90)
@@ -28568,7 +28568,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7952f4f5-9343-473c-88b7-0de40569a253")
 		(at 40.825 84.55)
@@ -28773,7 +28773,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "79c2d715-5a2c-4de8-b785-7450b0390306")
 		(at 49.9 103.25)
@@ -29572,7 +29572,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7a13c4be-9f70-4226-89d3-8939643b3985")
 		(at 59.85 89.2 -90)
@@ -30018,7 +30018,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7b6f7247-d943-4168-a9e7-c884a2cb3b4f")
 		(at 70.25 97.01)
@@ -30223,7 +30223,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7d57f0ea-b719-4f5f-bcb4-93d18e47855b")
 		(at 46.4 91.1 90)
@@ -30553,7 +30553,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "83212c43-41b2-4397-9bcf-d1aee8757197")
 		(at 113.48 106)
@@ -31200,7 +31200,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "84684302-8017-423e-a024-083e065f21ae")
 		(at 55.85 78.84)
@@ -31754,7 +31754,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "874092ae-ac50-4be1-b24c-6921dddb05f3")
 		(at 40.15 97.97 90)
@@ -32385,7 +32385,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:FXL0630-100-M"
+	(footprint "EuroClack:FXL0630-100-M"
 		(layer "F.Cu")
 		(uuid "8c1afa21-b2b9-427c-b26f-9b6e6b1244b3")
 		(at 116.52 55.85)
@@ -32532,7 +32532,7 @@
 			(uuid "224fee69-c1c5-4482-9612-0f4e99db294a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.3dshapes/FXL0630-100-M.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FXL0630-100-M.wrl"
 			(offset
 				(xyz 0 0 1.55)
 			)
@@ -32930,7 +32930,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8cffbace-4ad4-4b67-8026-01c19d3bd116")
 		(at 49.85 98.35)
@@ -33135,7 +33135,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "8e5bbf76-244d-4359-aca0-05dc8147b59f")
 		(at 86.8 144)
@@ -33336,7 +33336,7 @@
 			(uuid "ee9b00fb-a99f-484a-aab3-dec872e070bc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -33348,7 +33348,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8ed60605-e2b2-451f-af24-c573eab6f4cf")
 		(at 63.11 84.81 180)
@@ -33553,7 +33553,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:mouse-bite-2mm-slot"
+	(footprint "EuroClack:mouse-bite-2mm-slot"
 		(layer "F.Cu")
 		(uuid "8f6e92ee-7d83-44a6-94cc-b0d72d85822f")
 		(at 33.6 115.5)
@@ -33716,7 +33716,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8ff25411-f889-4347-a5f2-c67d17d05542")
 		(at 46.55 69.4 -90)
@@ -33921,7 +33921,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "90d20846-79e7-4a6a-985e-145fcdc1acf7")
 		(at 86.8 120)
@@ -34122,7 +34122,7 @@
 			(uuid "e4a04090-ce17-46bb-8150-d862a9d81b98")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -34634,7 +34634,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "92a8891a-d968-4803-a10d-e119906be2f6")
 		(at 38.57 88.35)
@@ -34839,7 +34839,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "92adb705-edfc-4468-a4bc-4478cd65182e")
 		(at 41.77 75.022745 -90)
@@ -35356,7 +35356,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "95af45fb-8057-4794-8b24-d8dc1c2a1403")
 		(at 112.8 156)
@@ -35557,7 +35557,7 @@
 			(uuid "6f76b367-0a93-48ad-bebd-30d09452518e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -35569,7 +35569,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "964550e2-d5ff-4c23-9082-de9fbc7decd3")
 		(at 71.11 104.19)
@@ -35801,7 +35801,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "96e4abae-bb2d-44af-a7bd-769e2b7ecf4b")
 		(at 106.9 152.57 90)
@@ -36220,7 +36220,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9736fbf8-7499-4e8a-8f9f-ea89e3190135")
 		(at 63.8 62.87 90)
@@ -36425,7 +36425,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA_Lib:SW-TH_PS-8556DVA-6PN"
+	(footprint "EuroClack:SW-TH_PS-8556DVA-6PN"
 		(layer "F.Cu")
 		(uuid "97859149-38d4-409d-9ae8-d96c9a865a34")
 		(at 82.215699 78.13525)
@@ -36910,7 +36910,7 @@
 			(uuid "29d3c36a-602a-4d98-9c19-eeca3c234233")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SW-TH_PS-8556DVA-6PN.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_PS-8556DVA-6PN.step"
 			(offset
 				(xyz 0 0 -3.4)
 			)
@@ -36922,7 +36922,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "99e60500-962f-4d02-86bd-151489ae6889")
 		(at 99.8 120)
@@ -37123,7 +37123,7 @@
 			(uuid "7840db66-4ea3-4a9f-aa18-26463ad7f887")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -37690,7 +37690,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "9a353ea5-8593-4acc-a9ba-383057b1e571")
 		(at 86.8 132)
@@ -37891,7 +37891,7 @@
 			(uuid "b3286d5c-30b7-43ed-9e31-671cf5f5926b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -37903,7 +37903,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:TF-SMD_TF-123-ARP9H15"
+	(footprint "EuroClack:TF-SMD_TF-123-ARP9H15"
 		(layer "F.Cu")
 		(uuid "9a9b508d-3e14-4770-bbad-cd021ac70df9")
 		(at 32.3 122.5 -90)
@@ -38183,7 +38183,7 @@
 			(uuid "7e228e55-e870-46af-b2c4-3fdcc8e30e98")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/TF-SMD_TF-123-ARP9H15.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/TF-SMD_TF-123-ARP9H15.wrl"
 			(offset
 				(xyz 0.1 0.1 0)
 			)
@@ -38409,7 +38409,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9c5612e1-4e6f-41b7-a60b-7a6c52ba1682")
 		(at 54.05 98.05)
@@ -38614,7 +38614,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a0fd9fd8-91ee-416a-939f-53d1c39a888e")
 		(at 73.1 89.55 180)
@@ -38819,7 +38819,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
+	(footprint "EuroClack:FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20"
 		(layer "F.Cu")
 		(uuid "a10892dd-17da-4b5b-b582-b153521d606f")
 		(at 111.1 81.007379 180)
@@ -39426,7 +39426,7 @@
 			(uuid "1f9318be-f966-49da-a173-217b4757b682")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20.wrl"
 			(offset
 				(xyz 0 1.6 0)
 			)
@@ -39438,7 +39438,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a1ea6cec-2d21-485c-b3e0-5d45b79d9fce")
 		(at 55.633333 61.3 90)
@@ -39643,7 +39643,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a222e6af-766c-49d9-a939-c3a1ce49ae5c")
 		(at 61.4 94.5)
@@ -39848,7 +39848,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:HDR-TH_8P-P1.27-H-M_1271WR-8P"
+	(footprint "EuroClack:HDR-TH_8P-P1.27-H-M_1271WR-8P"
 		(layer "F.Cu")
 		(uuid "a373cefb-8881-4fa8-a1f7-5d60fb2eaa73")
 		(at 126.2 64.802857 90)
@@ -40297,7 +40297,7 @@
 			(uuid "1ffaff7e-069d-42cd-b9b9-7c408ef4ff0f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/HDR-TH_8P-P1.27-H-M_1271WR-8P.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/HDR-TH_8P-P1.27-H-M_1271WR-8P.wrl"
 			(offset
 				(xyz 0 -1 1)
 			)
@@ -40309,7 +40309,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a3bb8391-562f-4e56-963a-a0fd0a001b9c")
 		(at 48.383333 68.4 180)
@@ -40514,7 +40514,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a48e3192-617d-4be8-af73-aa1604839dfb")
 		(at 66 66.65)
@@ -40719,7 +40719,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a4c95008-004b-4d67-86e1-c9891c95633c")
 		(at 60.15 81.65 180)
@@ -40951,7 +40951,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a50b1628-568e-4242-b564-6e188079bda4")
 		(at 43.25 63.4)
@@ -41183,7 +41183,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a5391d83-3c00-4e7c-851c-fd4d238fe119")
 		(at 119.68 61 180)
@@ -41388,7 +41388,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "a55c83ec-1612-46c3-9130-9df27523f3ad")
 		(at 125.8 144)
@@ -41589,7 +41589,7 @@
 			(uuid "e476b8e9-444e-437b-97ad-aae5336f6408")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -41601,7 +41601,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a6190f34-a04e-4e62-ab03-c9e11885045e")
 		(at 49.9 104.45 180)
@@ -41806,7 +41806,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a77e9d59-1c75-4b3e-939a-66d18037b803")
 		(at 44.825 79.95 180)
@@ -42348,7 +42348,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a7ba7517-2b0c-4b97-84c4-daf32c66e2aa")
 		(at 45.45 69.4 90)
@@ -42553,7 +42553,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a871c0b4-77d4-44f8-a256-82ff3a2319a6")
 		(at 63.383333 70.35)
@@ -42758,7 +42758,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a89e3161-3d29-4f49-a26f-faf9c74c4a06")
 		(at 38.575 82.51)
@@ -43377,7 +43377,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "aa6d9cbb-956c-4447-a4cc-3695e6c58f63")
 		(at 52.933333 74 180)
@@ -43796,7 +43796,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ad376c5c-f98c-48e5-9d43-9c959f997da6")
 		(at 57.85 61.25)
@@ -44001,7 +44001,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ad87f4fb-4779-4d02-b164-d52ef1710e97")
 		(at 106.6 128.38 90)
@@ -44206,7 +44206,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ae5f8751-1065-45ec-a26f-2965fdf62d7d")
 		(at 104.28 107)
@@ -44399,7 +44399,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "af0605cf-dde4-4812-965e-c8a20a64af22")
 		(at 63.233333 66)
@@ -44604,7 +44604,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "af20d4e7-eb89-4852-bcec-00db47ba87b5")
 		(at 52 98.05)
@@ -44809,7 +44809,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "af225594-bbcb-439a-8fd9-59dca9cca8ac")
 		(at 38.52 102 180)
@@ -45014,7 +45014,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b0113660-a294-455e-b1de-d895b14defdd")
 		(at 56.34 104.92 180)
@@ -45219,7 +45219,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b0a68911-9124-4dc0-93da-ce098ab8d202")
 		(at 49.85 97.2)
@@ -45424,7 +45424,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "b104aeba-4dce-42d7-af60-b1dd0c8ecf5c")
 		(at 112.8 120)
@@ -45625,7 +45625,7 @@
 			(uuid "99ed62e5-50ab-4b7b-ad7e-d866ecca01de")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -45637,7 +45637,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b53f2d40-963c-4019-991f-c324c07eb526")
 		(at 55.85 88.4 -90)
@@ -45842,7 +45842,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b63cd715-0dbb-424a-a4c0-fd6e4fc849bd")
 		(at 41.77 77.022745 -90)
@@ -46441,7 +46441,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b84cd07f-f59f-4659-98c6-79056bd52de6")
 		(at 61.19 59.97 -90)
@@ -46744,7 +46744,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bb1f4b1f-ee59-41e8-8bf0-c176e843de49")
 		(at 48.1 98.85 90)
@@ -46949,7 +46949,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bb619b24-243f-4556-8180-cfb32c8f839c")
 		(at 61.5 90.4 -90)
@@ -47154,7 +47154,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bb791c6f-333f-489b-b47b-a53a6e4d081d")
 		(at 40.18 104.2 90)
@@ -47457,7 +47457,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bc99d720-24d5-4e1d-8a0f-ee73fdac57dc")
 		(at 73.1 87.45)
@@ -47662,7 +47662,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bdde8db8-5eb5-4604-b53b-c6f6f4985c9c")
 		(at 61.4 92.45 180)
@@ -47867,7 +47867,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c105f65b-d46c-4c98-8cdf-31a884cbd019")
 		(at 70.17 94.69)
@@ -48072,7 +48072,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c11cddc9-e711-4269-b6f7-1ee374dacac4")
 		(at 48.02 88.6 180)
@@ -48277,7 +48277,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c143263c-614c-4f35-84ba-762710f07de4")
 		(at 72.45 74.55)
@@ -48482,7 +48482,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:FXL0630-100-M"
+	(footprint "EuroClack:FXL0630-100-M"
 		(layer "F.Cu")
 		(uuid "c14ef934-fdf4-4398-97ae-6dd9211e9c4b")
 		(at 39.92 69.08 90)
@@ -48629,7 +48629,7 @@
 			(uuid "38b25cf3-e2be-4656-a047-7d95bb543cf3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.3dshapes/FXL0630-100-M.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FXL0630-100-M.wrl"
 			(offset
 				(xyz 0 0 1.55)
 			)
@@ -48641,7 +48641,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
+	(footprint "EuroClack:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
 		(layer "F.Cu")
 		(uuid "c17663e6-11ee-40b7-a28e-120fd63cf188")
 		(at 132.149936 87.449936 90)
@@ -48854,7 +48854,7 @@
 			(uuid "296bd0bd-3244-4bd9-b34e-18c6e1fbc6ec")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/SW-TH_4P-L5.0-W5.0-P4.50-LS6.5.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_4P-L5.0-W5.0-P4.50-LS6.5.wrl"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -49176,7 +49176,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c3a9e576-c62c-4404-8aec-4b1a096088d9")
 		(at 70.16 93.64)
@@ -49972,7 +49972,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c998367b-8cd9-497b-8100-1c06b5f8a632")
 		(at 52.933333 74.95 180)
@@ -50177,7 +50177,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cb22eb34-ef00-4f96-9fbe-41d56f86b653")
 		(at 49.85 100.65 180)
@@ -50382,7 +50382,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cc96ba44-5586-4499-9564-b3cb84639a9e")
 		(at 114.2 60.38 -90)
@@ -50855,7 +50855,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cf79828c-2ead-4ed9-9891-5e06ecd760b4")
 		(at 48.02 87.55 180)
@@ -51060,7 +51060,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d0b884fd-15cb-40fd-942a-996f31fa721e")
 		(at 61.5 88.45 -90)
@@ -51553,7 +51553,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d5429333-0a55-4881-9ad4-d1fc5bf8846d")
 		(at 73.13 91.61)
@@ -51758,7 +51758,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d5b18c60-af75-4045-9fc6-9205c7b4a036")
 		(at 61.4 93.45 180)
@@ -52277,7 +52277,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d79fefd0-89ac-4030-8eed-0bb835973a52")
 		(at 48.01 76.12 -90)
@@ -52482,7 +52482,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d8aa83e3-c336-4806-93e4-485972c9ad5b")
 		(at 63.11 85.99 180)
@@ -52687,7 +52687,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d9124aa2-905a-42b4-9e43-fde2c5fe4c68")
 		(at 118.32 64.3 180)
@@ -53646,7 +53646,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "db9f540c-3c25-4c23-916f-f93c83ff84c0")
 		(at 73.12 82)
@@ -53851,7 +53851,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dbc79a11-a047-4e21-b42a-9bad1096c853")
 		(at 63.233333 68.1)
@@ -54056,7 +54056,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dd0b6eee-ed1d-4a82-86ea-340481c4bb41")
 		(at 59.91 59.95 -90)
@@ -54475,7 +54475,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:mouse-bite-2mm-slot"
+	(footprint "EuroClack:mouse-bite-2mm-slot"
 		(layer "F.Cu")
 		(uuid "de8e54a7-9924-4da8-a1b5-c7797a7cda35")
 		(at 76.004155 61.915585 -90)
@@ -54638,7 +54638,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "de907823-d72c-428b-ba0b-31da0b15d08c")
 		(at 38.56 99.1)
@@ -54843,7 +54843,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "dfde0418-f5bc-4d12-9b37-5ee6500ab787")
 		(at 58.37 92.22)
@@ -55075,7 +55075,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e0405781-bf44-45b3-9d21-83475c066b1d")
 		(at 80.4 140.73 90)
@@ -55280,7 +55280,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e090ac48-1bdd-44e1-b851-2a689c1201c2")
 		(at 84.25 89.48 -90)
@@ -55485,7 +55485,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e120b444-1df3-4133-8102-4de1b16a9c05")
 		(at 38.57 81.38)
@@ -55690,7 +55690,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e1bcad1a-b9b7-4b3d-8a1a-9f1ee7467492")
 		(at 38.53 96.84 180)
@@ -56160,7 +56160,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e4406003-e8df-48a7-aec0-d86469e8ea7b")
 		(at 54.133333 60.15 180)
@@ -56365,7 +56365,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+	(footprint "EuroClack:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "e4810890-6e16-4e45-bcea-5dbe0084a62c")
 		(at 55.933333 67.966667 180)
@@ -57714,7 +57714,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "green_screen:AUDIO-TH_PJ-301C"
+	(footprint "EuroClack:AUDIO-TH_PJ-301C"
 		(layer "F.Cu")
 		(uuid "e4ca8d66-62b1-46d4-a9c9-29faf3f3f841")
 		(at 99.8 132)
@@ -57915,7 +57915,7 @@
 			(uuid "45245583-32b7-4816-9ca3-a36d94f4a625")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/AUDIO-TH_PJ-301C.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/AUDIO-TH_PJ-301C.wrl"
 			(offset
 				(xyz 0.3 -0.6 0)
 			)
@@ -57927,7 +57927,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e8c25c37-b5e7-41ee-bcb6-163c79858480")
 		(at 73.13 90.6)
@@ -58132,7 +58132,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e959b459-02ac-4e42-a918-dd0598b035fd")
 		(at 32.58 77.9125 90)
@@ -58364,7 +58364,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
+	(footprint "EuroClack:SW-TH_4P-L5.0-W5.0-P4.50-LS6.5"
 		(layer "F.Cu")
 		(uuid "e9f6187c-6bc5-4039-bab5-21f390bec9cb")
 		(at 132.149936 96.149936 -90)
@@ -58577,7 +58577,7 @@
 			(uuid "8c22d975-c8db-45cf-82c6-540f832838a4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/green_screen.pretty/SW-TH_4P-L5.0-W5.0-P4.50-LS6.5.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SW-TH_4P-L5.0-W5.0-P4.50-LS6.5.wrl"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -58955,7 +58955,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ebb19dc9-cb8b-4925-a3cc-7d2fa6d119e1")
 		(at 42.1 56.4 90)
@@ -59187,7 +59187,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ec16121c-c6ca-43ec-a276-1a61269ba90f")
 		(at 44.2 69.4 -90)
@@ -59392,7 +59392,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ed8dbbce-ce8d-493f-8856-a5445d464e31")
 		(at 70.22 99.31 180)
@@ -59862,7 +59862,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "eec2aa84-ddd0-4b46-a0dd-41c07f6d1c21")
 		(at 80.4 116.2)
@@ -60309,7 +60309,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f1858f90-0e5a-4669-ba96-28bd528ef951")
 		(at 70.25 95.88 180)
@@ -60514,7 +60514,7 @@
 			)
 		)
 	)
-	(footprint "green_screen:mouse-bite-2mm-slot"
+	(footprint "EuroClack:mouse-bite-2mm-slot"
 		(layer "F.Cu")
 		(uuid "f1bdacb8-e3b1-43f9-b0e6-72f1cb07c5ae")
 		(at 76 106.3 -90)
@@ -61212,7 +61212,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f5faf6ba-78ef-48c8-8605-0a57bad5c765")
 		(at 123.4625 59.2)
@@ -61872,7 +61872,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f9c35cd8-4e8c-45fa-beb6-65e5d32f1a7f")
 		(at 41.95 101.1)
@@ -62077,7 +62077,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f9d1c44c-78f7-4d20-a27e-0c89052e96de")
 		(at 38.55 83.66)
@@ -62380,7 +62380,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f9ea1309-2f41-4976-ad7e-0bcb1c40f5b4")
 		(at 55.083333 74.71 90)
@@ -62585,7 +62585,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fbbfa873-6068-45ed-b525-18ca4afa28da")
 		(at 70.24 98.1)
@@ -62790,7 +62790,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fc99cd4c-4471-4601-bd40-7d56c82a30b9")
 		(at 40.1825 73.87 180)
@@ -62995,7 +62995,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0805_2012Metric"
+	(footprint "EuroClack:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fd04eb15-3335-4227-a105-d30a22acad83")
 		(at 38.85 94 180)
@@ -63227,7 +63227,7 @@
 			)
 		)
 	)
-	(footprint "Clacktronics:C_0402_1005Metric"
+	(footprint "EuroClack:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fdacfe41-2fc0-476d-8300-bad96ba48b09")
 		(at 57.183333 60.15)
@@ -63530,7 +63530,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Clacktronics:R_0402_1005Metric"
+	(footprint "EuroClack:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ff9bd1ae-d337-44b1-b01f-05c4a9bc07a7")
 		(at 38.57 80.28)
